@@ -43,7 +43,7 @@ Viele moderne Sicherheitslösungen überwachen Prozesse, indem sie Hooks in die 
 \subsection{Überblick der gängingen Sicherheitsmechanismen}
 \begin{table}[H]
 \centering
-\input{Praxisarbeit/Obfuscation/Table2}
+\input{Obfuscation/Table2}
 \end{table}
 Die in Tabelle~\ref{tab:sicherheitstechnologien} dargestellten Mechanismen bilden eine mehrschichtige Sicherheitsarchitektur ab, die sowohl präventive als auch reaktive Maßnahmen umfasst. Durch die Kombination von Log-Analyse, Endgeräte-Überwachung und Netzwerk-Kontrolle entsteht ein umfassendes Abwehrsystem gegen Angriffe. Ergänzend tragen forensische Verfahren und Täuschungstechniken dazu bei, Vorfälle besser zu verstehen und Angreifer frühzeitig zu identifizieren.
 
@@ -101,13 +101,13 @@ Im Rahmen dieser Arbeit werden insbesondere die folgenden Werkzeuge betrachtet. 
   CTFPacker ist ein Werkzeug, das primär für den Einsatz in Capture-the-Flag (CTF) Szenarien entwickelt wurde, um Antiviren- und EDR-Systeme zu umgehen. Das Tool nimmt eine Payload als Eingabe entgegen und erzeugt unter Verwendung spezifischer Flags eine Ausgabedatei (DLL oder EXE) mit den gewünschten Funktionen.
   \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Praxisarbeit/IMG/bilder/CTFPacker/ctfpacker1.png}
+    \includegraphics[width=1\textwidth]{IMG/bilder/CTFPacker/ctfpacker1.png}
     \caption{Staged Payload Erzeugung Syntax}
     \label{Staged Payload Erzeugung Syntax}
 \end{figure}
   \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Praxisarbeit/IMG/bilder/CTFPacker/ctfpacker2.png}
+    \includegraphics[width=1\textwidth]{IMG/bilder/CTFPacker/ctfpacker2.png}
     \caption{Stageless Payload Erzeugung Syntax}
     \label{Stageless Payload Erzeugung Syntax}
 \end{figure}
@@ -119,7 +119,7 @@ Diese Funktionalitäten sind in der Gesamtheit als modulare Optionen implementie
 Donut ist ein äußerst leistungsfähiges Werkzeug mit einem klar umrissenen Funktionsumfang: Es konvertiert eine gegebene Payload in ein PE-Format in verschlüsselten Raw-Shellcode. Besonders vorteilhaft ist die Kombination mit beispielsweise \emph{ScareCrow}, da dieses Tool ausschließlich Shellcode als Eingabe akzeptiert \cite{donut}.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Praxisarbeit/IMG/bilder/Donut/donut.png}
+    \includegraphics[width=1\textwidth]{IMG/bilder/Donut/donut.png}
     \caption{Donut Syntax}
     \label{Donut syntax}
 \end{figure}
@@ -129,7 +129,7 @@ Zur Reduktion der Erkennbarkeit implementiert Donut mehrere, modular ausgelegte 
   ScareCrow zeichnet sich durch seine Vielseitigkeit aus, da es Raw-Shellcode als Eingabe akzeptiert und eine Vielzahl von Konfigurationsoptionen über Flag-Parameter bereitstellt. In den Tests traten jedoch wiederholt Kompilierungsprobleme bei der Erzeugung von DLL-Dateien auf, während die Generierung von EXE-Dateien konsistent möglich war. ScareCrow ist primär auf Side-Loading\footnote{Side-Loading bezeichnet eine Technik, bei der ein legitimer, signierter Prozess unbeabsichtigt eine manipulierte oder bösartige DLL lädt, weil Windows bei der Auflösung von Abhängigkeiten zunächst in bestimmten Verzeichnissen (z. B. im Anwendungsverzeichnis) nach der benötigten Bibliothek sucht. Angreifer platzieren ihre DLL dort, sodass die Anwendung sie anstelle der originalen Bibliothek lädt.} ausgelegt — das heißt, es erzeugt Loader, die legitime Windows-Prozesse als Träger nutzen, anstatt klassischen Code-Injection-Mechaniken zu folgen — und versucht anschließend, EDR-Hooks aus den im Prozess geladenen System-DLLs zu „flushen“, da viele EDR-Hooks beim Prozessstart gesetzt werden.
   \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Praxisarbeit/IMG/bilder/ScareCrow/ScareCrow.png}
+    \includegraphics[width=1\textwidth]{IMG/bilder/ScareCrow/ScareCrow.png}
     \caption{Scarecrow Beispiel Nutzung}
     \label{Scarecrow beispiel nutzung}
 \end{figure}
@@ -145,7 +145,7 @@ Aufgrund des Alters des Projekts und der Tatsache, dass EXE-Dateien heutzutage v
 Nimcrypt2 ist ein in Nim entwickelter PE-Packer, der durch eine breite Palette an Konfigurations- und Verschleierungsoptionen hervorsticht.
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{Praxisarbeit/IMG/bilder/Nimcrypt2/nimcrypt2.png}
+\includegraphics[width=1\textwidth]{IMG/bilder/Nimcrypt2/nimcrypt2.png}
 \caption{Nimcrypt Syntax}
 \label{Nimcrypt Syntax}
 \end{figure}
@@ -154,14 +154,14 @@ Zu den implementierten Funktionalitäten gehören unter anderem: die Ausführung
   Veil ist ein Framework, das aus zwei Hauptmodulen besteht: einem Modul zur Erzeugung obfuskierter Payloads zur Evasion sowie einem weiteren Modul für sogenannte Ordnance-Payloads.
   \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Praxisarbeit/IMG/bilder/Veil Framework/veil1.png}
+    \includegraphics[width=1\textwidth]{IMG/bilder/Veil Framework/veil1.png}
     \caption{Veil Tool}
     \label{Veil Tool}
 \end{figure}
  Es dient als eine Art Bibliothek, aus der je nach Betriebssystem, gewünschter Shell-Art und Funktionsumfang die passende Payload ausgewählt werden kann. Da es sich jedoch um ein älteres Projekt handelt, werden die meisten Payloads bereits durch moderne Antivirenlösungen identifiziert und blockiert, bevor eine Ausführung erfolgen kann \cite{veil}.
   \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Praxisarbeit/IMG/bilder/Veil Framework/veil2.png}
+    \includegraphics[width=1\textwidth]{IMG/bilder/Veil Framework/veil2.png}
     \caption{Veil Beispiel Syntax}
     \label{Veil Beispiel Syntax}
 \end{figure}
@@ -170,18 +170,18 @@ Zu den implementierten Funktionalitäten gehören unter anderem: die Ausführung
 Um einen standardisierten Testdurchlauf zu gewährleisten, wurde ein identischer Payload durch alle Obfuskationstools verarbeitet. Dieser Payload war so konzipiert, dass er bei korrekter Ausführung eine Reverse-Shell-Verbindung zur Angreifer-Maschine herstellt, wodurch ein realistisches Angriffsszenario simuliert wurde. Der Payload wurde mit \texttt{msfvenom} generiert und gehört zu den typischen Signaturen, die von modernen Sicherheitssystemen in der Regel unmittelbar erkannt werden. Dies stellte die Wirksamkeit der getesteten Tools auf eine besonders anspruchsvolle Probe.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Praxisarbeit/IMG/bilder/payload.png}
+    \includegraphics[width=0.8\textwidth]{IMG/bilder/payload.png}
     \caption{Generierung des Payloads mit \texttt{msfvenom}}
     \label{fig:msfvenom}
 \end{figure}
 Die Durchführung begann mit der Übertragung der obfuskierten Dateien auf die Zielmaschine mit Windows-Betriebssystem. Hierfür wurde ein einfacher Webserver auf der Kali-Maschine eingerichtet, der mithilfe von Python innerhalb des Verzeichnisses mit den jeweiligen, pro Tool erzeugten Payloads betrieben wurde. Über den Webbrowser der Windows-VM konnten die Dateien anschließend heruntergeladen werden.
 \begin{figure}[H]
-    \centering  \includegraphics[width=0.8\textwidth]{Praxisarbeit/IMG/bilder/server.png}
+    \centering  \includegraphics[width=0.8\textwidth]{IMG/bilder/server.png}
     \caption{Aufbau des Webservers und Zugriff über den Browser}
     \label{fig:webserver}
 \end{figure}
 \begin{figure}[H]
-    \centering  \includegraphics[width=0.8\textwidth]{Praxisarbeit/IMG/bilder/webbrowser.png}
+    \centering  \includegraphics[width=0.8\textwidth]{IMG/bilder/webbrowser.png}
     \caption{Aufbau des Webservers und Zugriff über den Browser}
     \label{fig:webserver}
 \end{figure}
@@ -189,7 +189,7 @@ Bereits in dieser Phase zeigte sich, dass \texttt{.dll}-Dateien deutlich effekti
 Das einzige Tool, das das EDR-System erfolgreich umgehen konnte, war \textbf{CTFPacker}. Es generierte eine \texttt{.dll}-Datei, die mithilfe von \texttt{rundll32} auf dem Windows-System ausgeführt wurde. Dies führte zu einer erfolgreichen Reverse-Shell-Verbindung auf der Kali-Angriffsmaschine, womit die vollständige Funktionsfähigkeit des Payloads nachgewiesen werden konnte.
 \begin{figure}[H]
     \centering
-\includegraphics[width=0.8\textwidth]{Praxisarbeit/IMG/bilder/ReverseShell.png}
+\includegraphics[width=0.8\textwidth]{IMG/bilder/ReverseShell.png}
     \caption{Nachweis der erfolgreichen Reverse-Shell-Verbindung}
     \label{fig:reverse_shell}
 \end{figure}

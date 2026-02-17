@@ -16,7 +16,7 @@
 \addto\captionsngerman{%
   \renewcommand{\abstractname}{Abstract}%
 }
-\addbibresource{aux/literature.bib}
+\addbibresource{auxiliar/literature.bib}
 \pagestyle{fancy}
 
 % Header-Stil definieren
@@ -32,20 +32,20 @@
 \renewcommand{\listfigurename}{Abbildungsverzeichnis}
 \renewcommand{\listtablename}{Tabellenverzeichnis}
 \renewcommand{\contentsname}{Inhaltsverzeichnis}
-\newcommand{\thetitle}{Automatisierte Analyse und Vergleich von Gruppenrichtlinienobjekten \\ \& \\Evaluierung von Verschleierungstechniken für Penetrationstests}
+\newcommand{\thetitle}{Command-and-Control im Red Teaming: Technische Analyse aktueller Frameworks und Implikationen für Obfuscation}
 \newcommand{\theauthor}{Gabriel Ralf Ricarte Lanz}
 \newcommand{\degree}{Angewandte Informatik}
-\newcommand{\turnindate}{02. Oktober 2025}
-\newcommand{\timespan}{08.01.2025-02.10.2025}
+\newcommand{\turnindate}{27.08.2026}
+\newcommand{\timespan}{08.01.2026-27.08.2026}
 \newcommand{\matriculation}{6613445}
 \newcommand{\course}{TINF24AI1}
 \newcommand{\company}{ABB AG}
-\newcommand{\supervisor}{Dosch, Philip und Tran, Jake}
+\newcommand{\supervisor}{Tran, Jake}
 %\newcommand{\evaluator}{Dosch, Philip und Tran, Jake}
 \newcommand{\location}{Frankfurt am Main}
 
 \begin{document}
-\input{aux/cover}
+\input{auxiliar/cover}
 \pagenumbering{roman}
 \newpage
 \section*{Sperrvermerk}
@@ -54,7 +54,7 @@
 \newpage
 \section*{}
 \addcontentsline{toc}{section}{Erklärung zur Eigenleistung}
-\input{Praxisarbeit/aux/declaration}
+\input{auxiliar/declaration}
 \newpage
 \section*{}
 \addcontentsline{toc}{section}{Abstract}
@@ -84,7 +84,7 @@
 \listoftables
 \newpage
 
-\input{Praxisarbeit/aux/abrev}
+\input{auxiliar/abrev}
 \newpage
 \section*{Abkürzungsverzeichnis}
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
@@ -123,24 +123,19 @@ IT   & Informations Technologie \\
 \hline
 \textbf{Nr.} & \textbf{Tätigkeit} & \textbf{Zeitraum} & \textbf{Praxisphase} \\
 \hline
-1 & Einführungsveranstaltung durch Sebastian Stein & 13.01.2025–15.01.2025 & 1 \\
-2 & Werksführung an der BASF-Anlage in Ludwigshafen & 15.01.2025 & 1 \\
-3 & Workshop der SZC - Abteilung & 20.01.2025–24.01.2025 & 1 \\
-4 & Netzwerkschulung durch Felix Flügel & 30.01.2025–31.01.2025 & 1 \\
-5 & Praxisprojekt 1 & 01.02.2025–04.04.2025 & 1 \\
-6 & ABB Kundentage in Leipzig & 24.06.2025–26.06.2025 & 2 \\
-7 & Penetrationtest Workshop am Standort Mannheim bei ABB & 01.07.2025–03.07.2025 & 2 \\
-8 & Praxisprojekt 2 & 04.07.2025–30.09.2025 & 2 \\
+1 & Workshop der SZC Abteilung am Standort Frankfurt Praunheim & 26.01.26-30.01.26 & 3\\
+2 & Themenbearbeitung: Social Engineering als Service Leistung & 26.01.26-30.01.26 & 3\\
+3 & Themenbearbeitung: Command and Control Frameworks im Kontext von Penetration Tests & 30.01.26 - 17.03.26 & 3\\
 \hline
 \end{tabularx}
 \caption{Übersicht der Tätigkeiten während der Praxisphasen}
-\label{tab:Taetigkeiten der 1 und 2 Praxisphase}
+\label{tab:Taetigkeiten der 3. Praxisphase}
 \end{table}
 }
 \newpage
 \section*{Vorwort}
 \addcontentsline{toc}{section}{Vorwort}
-    Die in dieser Arbeit beschriebenen Aufgaben wurden innerhalb der ersten und zweiten Praxisphase, jeweils vom 08.01.2025 bis zum 28.03.2025 und von dem 23.06.25 bis 30.09.25, bei ASEA Brown Boveri (ABB AG) absolviert. Dies geschah in Frankfurt am Main und in Mannheim, in der Abteilung Process Automation Energy Industries (PAEN), genauer gesagt, in der Unterabteilung Service Zentralbereich Cyber-Security (SZC), unter Anleitungen der betrieblichen Betreuer Philip Dosch und Jake Tran. \newline \newline
+    Die in dieser Arbeit beschriebe nen Aufgaben wurden innerhalb der ersten und zweiten Praxisphase, jeweils vom 08.01.2025 bis zum 28.03.2025 und von dem 23.06.25 bis 30.09.25, bei ASEA Brown Boveri (ABB AG) absolviert. Dies geschah in Frankfurt am Main und in Mannheim, in der Abteilung Process Automation Energy Industries (PAEN), genauer gesagt, in der Unterabteilung Service Zentralbereich Cyber-Security (SZC), unter Anleitungen der betrieblichen Betreuer Philip Dosch und Jake Tran. \newline \newline
     Bestandteil des Berichtes der ersten Praxisphase ist die Konzipierung zur Automatisierten Analyse und Vergleich von Gruppenrichtlinienobjekten von ABB und Kundensystemen. Dabei werden die nötigen Grundlagen für den Leser geschaffen und der Arbeitsablauf erklärt.\newline \newline
     Dies äußerte sich als notwendig da ABB eine große Rolle in der Implementierung von Prozessleitsystemen an Kundenanlagen hat, wobei die Analyse von GPO ´s von grundlegender Bedeutung ist, um eine sichere und effiziente IT-Infrastruktur zu gewährleisten.
     \newline \newline \newline
@@ -150,8 +145,7 @@ IT   & Informations Technologie \\
 
 \newpage 
 \pagenumbering{arabic}
-\input{Praxisarbeit/GPO/Kapitel1}
-\newpage
-\input{Praxisarbeit/Obfuscation/Kapitel2}
+\newpage\input{GPO/Kapitel1}
+\input{Obfuscation/Kapitel2}
 \printbibliography
 \end{document}

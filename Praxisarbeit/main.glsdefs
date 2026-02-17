@@ -1,0 +1,364 @@
+\glsdefs@newdocentry{abb}%
+{%
+name={\acronymfont {\glsentryshort {abb}}},%
+sort={ABB},%
+type={acronym},%
+first={ABB},%
+firstplural={ABBs},%
+text={ABB},%
+plural={ABBs},%
+description={Asea Brown Boveri},%
+descriptionplural={Asea Brown Boveri},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Asea Brown Boveri},%
+longplural={Asea Brown Boveris},%
+short={ABB},%
+shortplural={ABBs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ad}%
+{%
+name={\acronymfont {\glsentryshort {ad}}},%
+sort={AD},%
+type={acronym},%
+first={AD},%
+firstplural={ADs},%
+text={AD},%
+plural={ADs},%
+description={Active Directory},%
+descriptionplural={Active Directory},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Active Directory},%
+longplural={Active Directorys},%
+short={AD},%
+shortplural={ADs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{admx}%
+{%
+name={\acronymfont {\glsentryshort {admx}}},%
+sort={ADMX},%
+type={acronym},%
+first={ADMX},%
+firstplural={ADMXs},%
+text={ADMX},%
+plural={ADMXs},%
+description={Administrative Template XML},%
+descriptionplural={Administrative Template XML},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Administrative Template XML},%
+longplural={Administrative Template XMLs},%
+short={ADMX},%
+shortplural={ADMXs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gpo}%
+{%
+name={\acronymfont {\glsentryshort {gpo}}},%
+sort={GPO},%
+type={acronym},%
+first={GPO},%
+firstplural={GPOs},%
+text={GPO},%
+plural={GPOs},%
+description={Gruppenrichtlinienobjekte},%
+descriptionplural={Gruppenrichtlinienobjekte},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Gruppenrichtlinienobjekte},%
+longplural={Gruppenrichtlinienobjektes},%
+short={GPO},%
+shortplural={GPOs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{basf}%
+{%
+name={\acronymfont {\glsentryshort {basf}}},%
+sort={BASF},%
+type={acronym},%
+first={BASF},%
+firstplural={BASFs},%
+text={BASF},%
+plural={BASFs},%
+description={Badische Anilin- und Sodafabrik},%
+descriptionplural={Badische Anilin- und Sodafabrik},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Badische Anilin- und Sodafabrik},%
+longplural={Badische Anilin- und Sodafabriks},%
+short={BASF},%
+shortplural={BASFs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gpmc}%
+{%
+name={\acronymfont {\glsentryshort {gpmc}}},%
+sort={GPMC},%
+type={acronym},%
+first={GPMC},%
+firstplural={GPMCs},%
+text={GPMC},%
+plural={GPMCs},%
+description={Group Policy Management Console},%
+descriptionplural={Group Policy Management Console},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Group Policy Management Console},%
+longplural={Group Policy Management Consoles},%
+short={GPMC},%
+shortplural={GPMCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{html}%
+{%
+name={\acronymfont {\glsentryshort {html}}},%
+sort={HTML},%
+type={acronym},%
+first={HTML},%
+firstplural={HTMLs},%
+text={HTML},%
+plural={HTMLs},%
+description={Hypertext Markup Language},%
+descriptionplural={Hypertext Markup Language},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hypertext Markup Language},%
+longplural={Hypertext Markup Languages},%
+short={HTML},%
+shortplural={HTMLs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{mmc}%
+{%
+name={\acronymfont {\glsentryshort {mmc}}},%
+sort={MMC},%
+type={acronym},%
+first={MMC},%
+firstplural={MMCs},%
+text={MMC},%
+plural={MMCs},%
+description={Microsoft Management Console},%
+descriptionplural={Microsoft Management Console},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Microsoft Management Console},%
+longplural={Microsoft Management Consoles},%
+short={MMC},%
+shortplural={MMCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{vba}%
+{%
+name={\acronymfont {\glsentryshort {vba}}},%
+sort={VBA},%
+type={acronym},%
+first={VBA},%
+firstplural={VBAs},%
+text={VBA},%
+plural={VBAs},%
+description={Visual Basic for Applications},%
+descriptionplural={Visual Basic for Applications},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Visual Basic for Applications},%
+longplural={Visual Basic for Applicationss},%
+short={VBA},%
+shortplural={VBAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{xml}%
+{%
+name={\acronymfont {\glsentryshort {xml}}},%
+sort={XML},%
+type={acronym},%
+first={XML},%
+firstplural={XMLs},%
+text={XML},%
+plural={XMLs},%
+description={Extensible Markup Language},%
+descriptionplural={Extensible Markup Language},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extensible Markup Language},%
+longplural={Extensible Markup Languages},%
+short={XML},%
+shortplural={XMLs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{paen}%
+{%
+name={\acronymfont {\glsentryshort {paen}}},%
+sort={PAEN},%
+type={acronym},%
+first={PAEN},%
+firstplural={PAENs},%
+text={PAEN},%
+plural={PAENs},%
+description={Process Autoation Energy Industries},%
+descriptionplural={Process Autoation Energy Industries},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Process Autoation Energy Industries},%
+longplural={Process Autoation Energy Industriess},%
+short={PAEN},%
+shortplural={PAENs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{szc}%
+{%
+name={\acronymfont {\glsentryshort {szc}}},%
+sort={SZC},%
+type={acronym},%
+first={SZC},%
+firstplural={SZCs},%
+text={SZC},%
+plural={SZCs},%
+description={Service Zentralbereich Cyber-Security},%
+descriptionplural={Service Zentralbereich Cyber-Security},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Service Zentralbereich Cyber-Security},%
+longplural={Service Zentralbereich Cyber-Securitys},%
+short={SZC},%
+shortplural={SZCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{it}%
+{%
+name={\acronymfont {\glsentryshort {it}}},%
+sort={IT},%
+type={acronym},%
+first={IT},%
+firstplural={ITs},%
+text={IT},%
+plural={ITs},%
+description={Informations Technologie},%
+descriptionplural={Informations Technologie},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Informations Technologie},%
+longplural={Informations Technologies},%
+short={IT},%
+shortplural={ITs},%
+counter={page},%
+parent={},%
+%
+}%
+
