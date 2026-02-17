@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  17 FEB 2026 09:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  17 FEB 2026 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -910,11 +910,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./main.aux
-
-LaTeX Warning: Label `fig:webserver' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -1010,12 +1006,12 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 47.
 Package biblatex Info: Reference segment=0 on input line 47.
  (./auxiliar/cover.tex
-<IMG/DHBWLogo.png, id=244, 1204.5pt x 502.87875pt>
+<IMG/DHBWLogo.png, id=203, 1204.5pt x 502.87875pt>
 File: IMG/DHBWLogo.png Graphic file (type png)
 <use IMG/DHBWLogo.png>
 Package pdftex.def Info: IMG/DHBWLogo.png  used on input line 3.
 (pdftex.def)             Requested size: 170.37486pt x 71.13188pt.
-<IMG/ABBLogo.png, id=246, 2007.5pt x 1147.28625pt>
+<IMG/ABBLogo.png, id=205, 2007.5pt x 1147.28625pt>
 File: IMG/ABBLogo.png Graphic file (type png)
 <use IMG/ABBLogo.png>
 Package pdftex.def Info: IMG/ABBLogo.png  used on input line 3.
@@ -1048,12 +1044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--58
 
 
 
-[5] (./main.lof
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-)
+[5] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1078,271 +1069,87 @@ Underfull \hbox (badness 1292) in paragraph at lines 130--130
 
 
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 138--145
+[9] (./auxiliar/vorwort.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--145
+Underfull \hbox (badness 10000) in paragraph at lines 1--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--145
+Underfull \hbox (badness 10000) in paragraph at lines 1--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--145
+Underfull \hbox (badness 10000) in paragraph at lines 1--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--145
+Underfull \hbox (badness 10000) in paragraph at lines 1--139
 
  []
 
 
 
-[10{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./GPO/Kapitel1.tex
+[10] (./Kapitel_1/einleitung.tex)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.12 \subsubsection
-                   {Gruppenrichtlinienverwaltungs-Konsole (GPMC)} [1]
-Underfull \hbox (badness 1688) in paragraph at lines 39--39
-[]|\OT1/cmr/m/n/10 (+20) Automatisierte Sys-te-
+l.142 \newpage
+               [1] (./Kapitel_2/grundlagen.tex)
+
+[2] (./Kapitel_3/c2frameworks.tex)
+
+[3] (./Kapitel_4/sliver.tex)
+
+[4] (./Kapitel_5/vergleich.tex
+Overfull \hbox (46.27158pt too wide) in paragraph at lines 1--1
+[]\OT1/cmr/bx/n/14.4 (-20) Vergleichende Ge-gen[]uberstellung der C2-Frameworks 
  []
 
+)
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\OT1/cmr/m/n/10 (+20) Verarbeitung per
- []
+[5] (./Kapitel_6/praxisbezug.tex)
 
+[6] (./Kapitel_7/uebergang.tex)
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\OT1/cmr/m/n/10 (+20) Konsistenz bei
- []
+[7] (./Kapitel_8/fazit.tex)
 
+LaTeX Warning: Empty bibliography on input line 156.
 
-Overfull \hbox (6.57112pt too wide) in paragraph at lines 39--39
-[]|\OT1/cmr/m/n/10 (-20) Erstellungsm[]oglichkeiten
- []
 
 
-
-[2]
-
-[3]
-
-[4]
-Overfull \hbox (7.27pt too wide) in paragraph at lines 58--61
-\OT1/cmr/m/n/10 (-20) vor-han-de-ne Vo-lu-men-li-zen-zen konn-te es kos-ten-frei ge-nutzt wer-den, oh-ne zus[]atzlichen
- []
-
-
-
-[5]
-
-[6]
-<IMG/Screenshot 2025-03-21 070630.png, id=436, 1425.82687pt x 523.9575pt>
-File: IMG/Screenshot 2025-03-21 070630.png Graphic file (type png)
-<use IMG/Screenshot 2025-03-21 070630.png>
-Package pdftex.def Info: IMG/Screenshot 2025-03-21 070630.png  used on input line 74.
-(pdftex.def)             Requested size: 345.0pt x 126.77571pt.
-
-
-[7]
-<IMG/Screenshot 2025-02-18 110333.png, id=441, 670.00313pt x 392.96812pt>
-File: IMG/Screenshot 2025-02-18 110333.png Graphic file (type png)
-<use IMG/Screenshot 2025-02-18 110333.png>
-Package pdftex.def Info: IMG/Screenshot 2025-02-18 110333.png  used on input line 80.
-(pdftex.def)             Requested size: 345.0pt x 202.34785pt.
-
-
-[8 <./IMG/Screenshot 2025-03-21 070630.png> <./IMG/Screenshot 2025-02-18 110333.png>]) (./Obfuscation/Kapitel2.tex
-Overfull \hbox (9.63998pt too wide) in paragraph at lines 95--1
-\OT1/cmr/m/n/10 (-20) Im Ver-lauf der Um-set-zung zeig-te sich je-doch, dass die XML-Daten nicht durchg[]angig
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-
-
-[9]
-
-[10]
-
-[11]
-
-[12]
-
-[13]
-
-[14] (./Obfuscation/Table2.tex)
-
-[15]
-
-[16]
-
-[17]
-
-[18]
-<IMG/bilder/CTFPacker/ctfpacker1.png, id=536, 470.35725pt x 278.84175pt>
-File: IMG/bilder/CTFPacker/ctfpacker1.png Graphic file (type png)
-<use IMG/bilder/CTFPacker/ctfpacker1.png>
-Package pdftex.def Info: IMG/bilder/CTFPacker/ctfpacker1.png  used on input line 104.
-(pdftex.def)             Requested size: 345.0pt x 204.53137pt.
-<IMG/bilder/CTFPacker/ctfpacker2.png, id=537, 472.76625pt x 184.89075pt>
-File: IMG/bilder/CTFPacker/ctfpacker2.png Graphic file (type png)
-<use IMG/bilder/CTFPacker/ctfpacker2.png>
-Package pdftex.def Info: IMG/bilder/CTFPacker/ctfpacker2.png  used on input line 110.
-(pdftex.def)             Requested size: 345.0pt x 134.92679pt.
-
-
-[19 <./IMG/bilder/CTFPacker/ctfpacker1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
-
- []
-
-
-
-[20 <./IMG/bilder/CTFPacker/ctfpacker2.png>]
-<IMG/bilder/Donut/donut.png, id=554, 567.3195pt x 158.39175pt>
-File: IMG/bilder/Donut/donut.png Graphic file (type png)
-<use IMG/bilder/Donut/donut.png>
-Package pdftex.def Info: IMG/bilder/Donut/donut.png  used on input line 122.
-(pdftex.def)             Requested size: 345.0pt x 96.32155pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
-
- []
-
-
-
-[21 <./IMG/bilder/Donut/donut.png>]
-<IMG/bilder/ScareCrow/ScareCrow.png, id=576, 592.01175pt x 295.70474pt>
-File: IMG/bilder/ScareCrow/ScareCrow.png Graphic file (type png)
-<use IMG/bilder/ScareCrow/ScareCrow.png>
-Package pdftex.def Info: IMG/bilder/ScareCrow/ScareCrow.png  used on input line 132.
-(pdftex.def)             Requested size: 345.0pt x 172.32555pt.
-
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
-
-Overfull \hbox (27.13889pt too wide) in paragraph at lines 139--140
-[]\OT1/cmr/m/n/10 (-20) Verschl[]usselungs- und Ob-fus-ka-ti-ons-op-tio-nen: w[]ahlbare Ver-schl[]usselungsmodi
- []
-
-<IMG/bilder/Nimcrypt2/nimcrypt2.png, id=588, 486.618pt x 486.01575pt>
-File: IMG/bilder/Nimcrypt2/nimcrypt2.png Graphic file (type png)
-<use IMG/bilder/Nimcrypt2/nimcrypt2.png>
-Package pdftex.def Info: IMG/bilder/Nimcrypt2/nimcrypt2.png  used on input line 148.
-(pdftex.def)             Requested size: 345.0pt x 344.58414pt.
-
-
-[23 <./IMG/bilder/ScareCrow/ScareCrow.png>]
-<IMG/bilder/Veil Framework/veil1.png, id=601, 369.17924pt x 328.8285pt>
-File: IMG/bilder/Veil Framework/veil1.png Graphic file (type png)
-<use IMG/bilder/Veil Framework/veil1.png>
-Package pdftex.def Info: IMG/bilder/Veil Framework/veil1.png  used on input line 157.
-(pdftex.def)             Requested size: 345.0pt x 307.30759pt.
-
-
-[24 <./IMG/bilder/Nimcrypt2/nimcrypt2.png>]
-<IMG/bilder/Veil Framework/veil2.png, id=609, 374.5995pt x 19.272pt>
-File: IMG/bilder/Veil Framework/veil2.png Graphic file (type png)
-<use IMG/bilder/Veil Framework/veil2.png>
-Package pdftex.def Info: IMG/bilder/Veil Framework/veil2.png  used on input line 164.
-(pdftex.def)             Requested size: 345.0pt x 17.74925pt.
-
-Overfull \hbox (1.30109pt too wide) in paragraph at lines 161--167
-[]\OT1/cmr/m/n/10 (-20) Es dient als ei-ne Art Bi-blio-thek, aus der je nach Be-triebs-sys-tem, gew[]unschter
- []
-
-<IMG/bilder/payload.png, id=610, 977.15062pt x 54.2025pt>
-File: IMG/bilder/payload.png Graphic file (type png)
-<use IMG/bilder/payload.png>
-Package pdftex.def Info: IMG/bilder/payload.png  used on input line 173.
-(pdftex.def)             Requested size: 276.00105pt x 15.30974pt.
-
-
-[25 <./IMG/bilder/Veil Framework/veil1.png> <./IMG/bilder/Veil Framework/veil2.png>]
-<IMG/bilder/server.png, id=619, 847.66687pt x 223.58531pt>
-File: IMG/bilder/server.png Graphic file (type png)
-<use IMG/bilder/server.png>
-Package pdftex.def Info: IMG/bilder/server.png  used on input line 179.
-(pdftex.def)             Requested size: 276.00105pt x 72.79741pt.
-<IMG/bilder/webbrowser.png, id=620, 779.91376pt x 374.90062pt>
-File: IMG/bilder/webbrowser.png Graphic file (type png)
-<use IMG/bilder/webbrowser.png>
-Package pdftex.def Info: IMG/bilder/webbrowser.png  used on input line 184.
-(pdftex.def)             Requested size: 276.00105pt x 132.67018pt.
-<IMG/bilder/ReverseShell.png, id=621, 837.88031pt x 167.87718pt>
-File: IMG/bilder/ReverseShell.png Graphic file (type png)
-<use IMG/bilder/ReverseShell.png>
-Package pdftex.def Info: IMG/bilder/ReverseShell.png  used on input line 192.
-(pdftex.def)             Requested size: 276.00105pt x 55.29716pt.
-
-
-[26 <./IMG/bilder/payload.png> <./IMG/bilder/server.png> <./IMG/bilder/webbrowser.png>]
-
-[27 <./IMG/bilder/ReverseShell.png>]
-
-[28])
-Overfull \hbox (30.82642pt too wide) in paragraph at lines 151--151
-\OT1/cmr/m/n/10 (-20) Hin-ter-grund-re-cher-che f[]ur Di-rect Sys-calls). Adres-se: []$\OT1/cmtt/m/n/10 https : / / googleprojectzero .
- []
-
-
-
-[29]
-Overfull \hbox (7.86075pt too wide) in paragraph at lines 151--151
-[]\OT1/cmr/m/n/10 (-20) mochabyte0x, \OT1/cmr/m/it/10 (-20) CTFPa-cker\OT1/cmr/m/n/10 (-20) , []$\OT1/cmtt/m/n/10 https : / / github . com / mochabyte0x / CTFPacker$[]\OT1/cmr/m/n/10 (-20) ,
- []
-
-
-
-[30]
-
-[31] (./main.aux)
+[8] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8AEF11D53060D1564FCCC8DA7F573137;11615.
+(rerunfilecheck)             Checksum: 1DFDEC5751A7F0510AB285C1005A90BB;8751.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39134 strings out of 473190
- 763863 string characters out of 5715800
- 1675899 words of memory out of 5000000
- 61459 multiletter control sequences out of 15000+600000
- 571599 words of font info for 165 fonts, out of 8000000 for 9000
+ 38527 strings out of 473190
+ 749967 string characters out of 5715800
+ 1668347 words of memory out of 5000000
+ 61030 multiletter control sequences out of 15000+600000
+ 565209 words of font info for 107 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,12n,101p,2429b,2475s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (42 pages, 973507 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on main.pdf (19 pages, 194292 bytes).
 PDF statistics:
- 800 PDF objects out of 1000 (max. 8388607)
- 691 compressed objects within 7 object streams
- 172 named destinations out of 1000 (max. 500000)
- 35888 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 24991 words of extra memory for PDF output out of 29859 (max. 10000000)
 
