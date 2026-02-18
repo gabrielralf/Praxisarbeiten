@@ -44,7 +44,6 @@
 \newcommand{\supervisor}{Tran, Jake}
 %\newcommand{\evaluator}{Dosch, Philip und Tran, Jake}
 \newcommand{\location}{Frankfurt am Main}
-
 \begin{document}
 \input{auxiliar/cover}
 \pagenumbering{roman}
@@ -59,32 +58,29 @@
 \newpage
 \section*{}
 \addcontentsline{toc}{section}{Abstract}
+\addcontentsline{toc}{section}{Abstract}
 \begin{abstract}
 \begin{large}
-    The present report addresses two key areas in the field of IT security and system administration. The first part presents an automated approach for analyzing and comparing Group Policy Objects (GPOs), enabling a systematic comparison between ABB’s internal configurations and those of customer environments. The goal is to efficiently identify deviations, security gaps, and opportunities for optimization. \\
-    The second part focuses on the evaluation of modern obfuscation techniques used in penetration testing. Various methods are examined in terms of their effectiveness, detectability, and practical applicability. The combination of both topics provides a practical contribution to enhancing IT security in industrial environments.
+The present report focuses on the analysis of modern Command-and-Control (C2) frameworks in the context of Red Team operations. C2 infrastructures represent a core component of realistic attack simulations, as they enable the centralized control of compromised systems and the execution of post-exploitation activities. \\
+The work provides a technical examination of contemporary C2 frameworks, with a particular focus on the Sliver framework. In addition, established solutions such as Metasploit and Cobalt Strike are comparatively assessed to identify architectural differences, operational characteristics, and typical use cases. The results contribute to evaluating the suitability of modern C2 frameworks for penetration testing as a service offering within the Service Central Cyber-Security (SZC) department and provide a foundation for further investigations in the area of payload and communication obfuscation.
 \end{large}
 \end{abstract}
 \newpage
-
 \newpage
 \section*{}
 \addcontentsline{toc}{section}{Inhaltsverzeichnis}
 \tableofcontents
 \newpage
-
 \newpage
 \section*{}
 \addcontentsline{toc}{section}{Abbildungsverzeichnis}
 \listoffigures
 \newpage
-
 \newpage
 \section*{}
 \addcontentsline{toc}{section}{Tabellenverzeichnis (Eigene Darstellung)}
 \listoftables
 \newpage
-
 \input{auxiliar/abrev}
 \newpage
 \section*{Abkürzungsverzeichnis}
@@ -97,17 +93,14 @@
 \midrule
 ABB  & Asea Brown Boveri \\
 AD   & Active Directory \\
-ADMX & Administrative Template XML \\
-GPO  & Gruppenrichtlinienobjekte \\
-BASF & Badische Anilin- und Sodafabrik \\
-GPMC & Group Policy Management Console \\
-HTML & Hypertext Markup Language \\
-MMC  & Microsoft Management Console \\
-VBA  & Visual Basic for Applications \\
-XML  & Extensible Markup Language \\
+IT   & Informations Technologie \\
 PAEN & Process Automation Energy Industries \\
 SZC  & Service Zentralbereich Cyber-Security \\
-IT   & Informations Technologie \\
+OPSEC & Operational Security \\
+C2   & Command and Control \\
+EDR  & Endpoint Detection and Response \\
+SOC  & Security Operations Center \\
+SIEM & Security Information and Event Management \\
 \bottomrule
 \end{tabularx}
     \caption{Abkürzungsverzeichnis}

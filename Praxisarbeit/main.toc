@@ -2,6 +2,7 @@
 \contentsline {section}{Sperrvermerk}{i}{section*.1}%
 \contentsline {section}{Erklärung zur Eigenleistung}{ii}{section*.2}%
 \contentsline {section}{Abstract}{iii}{section*.4}%
+\contentsline {section}{Abstract}{iii}{section*.4}%
 \contentsline {section}{Inhaltsverzeichnis}{iv}{section*.5}%
 \contentsline {section}{Abbildungsverzeichnis}{vi}{section*.7}%
 \contentsline {section}{Tabellenverzeichnis (Eigene Darstellung)}{vii}{section*.9}%
@@ -26,10 +27,6 @@
 \contentsline {subsection}{\numberline {3.1}Metasploit (MSF)}{4}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Cobalt Strike}{4}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Sliver}{4}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Weitere C2-Frameworks}{4}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Empire}{4}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Pupy}{4}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Koadic}{4}{subsubsection.3.4.3}%
 \contentsline {section}{\numberline {4}Sliver - Detaillierte Analyse}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Architektur}{5}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Funktionalitäten}{5}{subsection.4.2}%
