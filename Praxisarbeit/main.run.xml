@@ -84,6 +84,7 @@
     </requires>
     <requires type="editable">
       <file>auxiliar/literature.bib</file>
+      <file>auxiliar/einleitung.bib</file>
     </requires>
   </external>
 </requests>

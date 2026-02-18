@@ -16,5 +16,29 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{microsoft2026cyberkillchain}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Die Cyber Kill Chain ist ein Cybersecurity Framework, das Cyberangriffsphasen beschreibt, einschließlich anfänglicher Reconnaissance, Sicherheitsverletzung und Datenexfiltration.}
+      \field{langid}{german}
+      \field{shorttitle}{Was ist Cyber Kill Chain?}
+      \field{title}{Was ist Cyber Kill Chain? {|} Microsoft Security}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/de-de/security/business/security-101/what-is-cyber-kill-chain
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/de-de/security/business/security-101/what-is-cyber-kill-chain
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
