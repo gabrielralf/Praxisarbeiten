@@ -2,26 +2,66 @@
 \section{Theoretische Grundlagen}
 \subsection{Command-and-Control (C2) - Grundkonzept}
 \subsubsection{Definition und Zweck von C2}
-Command-and-Control (C2) bezeichnet im Kontext von Cyberangriffen die Gesamtheit der Mechanismen und Infrastrukturen, die es einem Angreifer ermöglichen, kompromittierte Systeme zentral zu steuern. Nach erfolgreicher Kompromittierung eines Zielsystems dient eine C2-Infrastruktur dazu, Befehle an Implantate oder Schadsoftware zu übermitteln, Rückmeldungen zu empfangen und weitere Aktionen zu koordinieren. C2 stellt somit die kommunikative Verbindung zwischen Angreifer und Zielsystem dar und ist eine wesentliche Voraussetzung für nachhaltige und zielgerichtete Angriffe.\cite{c2_varonis2026}
+Command-and-Control (C2) bezeichnet im Kontext von Cyberangriffen die Gesamtheit der Mechanismen und Infrastrukturen, 
+die es einem Angreifer ermöglichen, kompromittierte Systeme zentral zu steuern. 
+Nach erfolgreicher Kompromittierung eines Zielsystems dient eine C2-Infrastruktur dazu, Befehle an Implantate oder Schadsoftware zu übermitteln, 
+Rückmeldungen zu empfangen und weitere Aktionen zu koordinieren. 
+C2 stellt somit die kommunikative Verbindung zwischen Angreifer und Zielsystem dar und ist eine wesentliche Voraussetzung für nachhaltige und zielgerichtete Angriffe.\cite{c2_varonis2026}
 \subsubsection{Klassischer Kill-Chain Kontext}
-C2 ist als eigenständige Phase innerhalb der klassischen Cyber Kill Chain zu verstehen. Die Kill Chain beschreibt einen sequenziellen Angriffsablauf, der von der Aufklärung über die initiale Kompromittierung bis hin zur Zielerreichung reicht. In diesem Modell folgt die Command-and-Control-Phase typischerweise auf die erfolgreiche Ausführung und Installation eines Angriffsartefakts.
+C2 ist als eigenständige Phase innerhalb der klassischen Cyber Kill Chain zu verstehen. 
+Die Kill Chain beschreibt einen sequenziellen Angriffsablauf, der von der Aufklärung über die initiale Kompromittierung bis hin zur Zielerreichung reicht. 
+In diesem Modell folgt die Command-and-Control-Phase typischerweise auf die erfolgreiche Ausführung und Installation eines Angriffsartefakts.
 \newline\newline
-Wie in Abbildung 1 dargestellt, bildet C2 das Bindeglied zwischen der initialen Kompromittierung und den eigentlichen Angriffsaktionen. Erst durch eine funktionierende C2-Kommunikation wird es möglich, kompromittierte Systeme dauerhaft zu kontrollieren, weitere Befehle auszuführen und situativ auf Veränderungen in der Zielumgebung zu reagieren. Aus Sicht der Verteidigung stellt die C2-Phase zugleich einen zentralen Ansatzpunkt für Detektion und Unterbrechung von Angriffen dar.
+Wie in Abbildung 1 dargestellt, bildet C2 das Bindeglied zwischen der initialen Kompromittierung und den eigentlichen Angriffsaktionen. 
+Erst durch eine funktionierende C2-Kommunikation wird es möglich, kompromittierte Systeme dauerhaft zu kontrollieren, 
+weitere Befehle auszuführen und situativ auf Veränderungen in der Zielumgebung zu reagieren. Aus Sicht der Verteidigung stellt die C2-Phase zugleich einen zentralen Ansatzpunkt für Detektion und Unterbrechung von Angriffen dar.
 \newline\newline
 Im Red Teaming wird dieser Kontext bewusst genutzt, um nicht nur einzelne Schwachstellen zu identifizieren, sondern vollständige Angriffsketten realistisch abzubilden. Die Qualität und Ausgestaltung der C2-Infrastruktur hat dabei direkten Einfluss auf die Aussagekraft der gesamten Angreifersimulation.
 \subsubsection{Beaconing und Kommunikation in C2-Frameworks}
-Die Kommunikation zwischen kompromittierten Systemen und einer Command-and-Control-Infrastruktur bildet einen zentralen Bestandteil moderner C2-Frameworks. Ziel ist es, Befehle und Rückmeldungen zuverlässig sowie möglichst unauffällig zu übertragen. Zu diesem Zweck unterstützen aktuelle Frameworks unterschiedliche Kommunikationsprotokolle, die sich an legitimen Netzwerkverkehr anlehnen und verschiedene Einsatzszenarien abdecken.
+Die Kommunikation zwischen kompromittierten Systemen und einer Command-and-Control-Infrastruktur bildet einen zentralen Bestandteil moderner C2-Frameworks. 
+Ziel ist es, Befehle und Rückmeldungen zuverlässig sowie möglichst unauffällig zu übertragen. 
+Zu diesem Zweck unterstützen aktuelle Frameworks unterschiedliche Kommunikationsprotokolle, die sich an legitimen Netzwerkverkehr anlehnen und verschiedene Einsatzszenarien abdecken.
 \newline\newline
-Ein verbreitetes Kommunikationsmodell ist das Beaconing, bei dem kompromittierte Systeme in regelmäßigen oder adaptiven Intervallen selbstständig eine Verbindung zum C2-Server herstellen. Dieses Modell begünstigt ausgehenden Netzwerkverkehr und ist insbesondere in Umgebungen mit restriktiven Firewall-Regeln von Vorteil. Demgegenüber stehen sessionbasierte Modelle mit persistenten Verbindungen, die eine unmittelbare Interaktion ermöglichen, jedoch eine erhöhte Erkennbarkeit aufweisen können.
+Ein verbreitetes Kommunikationsmodell ist das Beaconing, bei dem kompromittierte Systeme in regelmäßigen oder adaptiven Intervallen selbstständig eine Verbindung zum C2-Server herstellen. 
+Dieses Modell begünstigt ausgehenden Netzwerkverkehr und ist insbesondere in Umgebungen mit restriktiven Firewall-Regeln von Vorteil.
+Demgegenüber stehen sessionbasierte Modelle mit persistenten Verbindungen, die eine unmittelbare Interaktion ermöglichen, jedoch eine erhöhte Erkennbarkeit aufweisen können.
 \newline\newline
-Zur Umsetzung dieser Modelle nutzen C2-Frameworks verschiedene Protokolle. Häufig kommt TLS-geschützter HTTP(S)-Verkehr zum Einsatz, da dieser in den meisten Netzwerken erlaubt ist und sich gut in regulären Web-Traffic integrieren lässt. Ergänzend werden DNS-basierte Mechanismen verwendet, um auch in stark eingeschränkten Netzwerken eine grundlegende Kommunikation zu ermöglichen. Moderne Frameworks unterstützen zudem verschlüsselte Tunnelverfahren wie WireGuard, die eine robuste und performante Kommunikation bei gleichzeitig hohem Sicherheitsniveau bieten.
-\newline\newline
-Etablierte C2-Frameworks wie Cobalt Strike und Metasploit setzen diese Ansätze in unterschiedlicher Form um. Während klassische Meterpreter-Sessions überwiegend sessionbasierte Verbindungen nutzen, verwendet Cobalt Strike primär Beaconing-Konzepte über HTTP(S), DNS oder SMB. Viele aktuelle Frameworks kombinieren mehrere Protokolle und Kommunikationsmodelle, um flexibel auf unterschiedliche Zielumgebungen reagieren zu können.
+Zur Umsetzung dieser Modelle nutzen C2-Frameworks verschiedene Protokolle. 
+Häufig kommt TLS-geschützter HTTP(S)-Verkehr zum Einsatz, da dieser in den meisten Netzwerken erlaubt ist und sich gut in regulären Web-Traffic integrieren lässt. 
+Ergänzend werden DNS-basierte Mechanismen verwendet, um auch in stark eingeschränkten Netzwerken eine grundlegende Kommunikation zu ermöglichen. 
+Moderne Frameworks unterstützen zudem verschlüsselte Tunnelverfahren wie WireGuard, die eine robuste und performante Kommunikation bei gleichzeitig hohem Sicherheitsniveau bieten.
 \newline\newline
 Die detaillierte Betrachtung dieser Kommunikationsmechanismen sowie deren operative Auswirkungen erfolgt in den nachfolgenden Abschnitten dieser Arbeit.
 \subsection{Anforderungen an moderne C2-Frameworks}
-
+Moderne Command-and-Control-Frameworks müssen eine Vielzahl technischer und operationeller Anforderungen erfüllen, um in realistischen Angriffsszenarien einsetzbar zu sein. 
+Insbesondere im Kontext professioneller Sicherheitsprüfungen ist es erforderlich, dass C2-Infrastrukturen sowohl funktional leistungsfähig als auch anpassbar und kontrollierbar sind. 
+Die folgenden Kriterien stellen zentrale Anforderungen dar, die bei der Bewertung moderner Frameworks berücksichtigt werden müssen.
 \subsubsection{Stealth und OPSEC}
+Eine der wesentlichsten Anforderungen an moderne C2-Frameworks ist ein hohes Maß an Stealth. Darunter ist die Fähigkeit zu verstehen, 
+Kommunikations- und Laufzeitverhalten so zu gestalten, dass sie möglichst wenig Auffälligkeiten gegenüber Sicherheitsmechanismen erzeugen. 
+In modernen IT- und insbesondere OT-Umgebungen werden Netzwerkverkehr, Prozessverhalten und Speicheraktivitäten zunehmend überwacht. 
+Auffällige Muster können daher schnell zu einer Detektion führen.
+\newline\newline
+Um diesem Risiko zu begegnen, müssen C2-Frameworks in der Lage sein, ihre Kommunikation und ihr Verhalten an die jeweilige Zielumgebung anzupassen. 
+Dies umfasst die Nutzung von legitimen Protokollen, die Integration in regulären Netzwerkverkehr sowie die Vermeidung von auffälligen Mustern in der Prozess- und Speicheraktivität. 
+Darüber hinaus ist eine sorgfältige OPSEC (Operational Security) unerlässlich, um die Angriffsinfrastruktur vor Entdeckung zu schützen und die Effektivität der Simulation zu gewährleisten.
 \subsubsection{Modularität}
+Modularität ist ein weiteres zentrales Kriterium für moderne C2-Frameworks. 
+Ein modularer Aufbau ermöglicht es, verschiedene Komponenten wie Kommunikationsprotokolle, Verschlüsselungsmechanismen oder Implantattypen flexibel zu kombinieren und an spezifische Anforderungen anzupassen. 
+Dies erhöht nicht nur die Einsatzmöglichkeiten, sondern erleichtert auch die Wartung und Weiterentwicklung der C2-Infrastruktur.
 \subsubsection{Umgehung von EDR/AV-Systemen}
+Die zunehmende Verbreitung von Endpoint Detection and Response (EDR) sowie verhaltensbasierten Antivirenlösungen verschärft die Anforderungen an C2-Frameworks zusätzlich. Moderne Sicherheitsprodukte analysieren Prozesse, Speicherzugriffe und Netzwerkaktivitäten anhand heuristischer Modelle und Anomalieerkennung. Vor diesem Hintergrund genügt es nicht, lediglich bekannte Signaturen zu vermeiden.
+\newline\newline
+Vielmehr muss ein C2-Framework in der Lage sein, generische Erkennungsmerkmale zu minimieren. 
+Dies betrifft sowohl die Art der Prozessausführung als auch das Kommunikationsverhalten. 
+Die zuvor beschriebene Modularität unterstützt dies, da sie es erlaubt, Mechanismen situationsabhängig anzupassen. 
+Stealth, OPSEC und Modularität wirken somit zusammen, um die Wahrscheinlichkeit einer Detektion zu reduzieren und gleichzeitig realistische Angriffsszenarien zu ermöglichen.
+\newline\newline
+Im Rahmen professioneller Sicherheitsprüfungen ist dieser Aspekt besonders relevant: Wird ein Framework unmittelbar durch Standardkonfiguration erkannt, lassen sich nur begrenzte Rückschlüsse auf die tatsächliche Resilienz einer Umgebung ziehen.
 \subsubsection{Flexibilität und Anpassungsfähigkeit}
+Die genannten Anforderungen münden schließlich in der übergeordneten Notwendigkeit der Flexibilität. IT- und insbesondere OT-Umgebungen unterscheiden sich stark hinsichtlich Netzwerksegmentierung, Sicherheitsniveau und regulatorischer Rahmenbedingungen. Ein C2-Framework muss daher in der Lage sein, sich an unterschiedliche technische und organisatorische Gegebenheiten anzupassen.
+\newline\newline
+Flexibilität umfasst sowohl die Unterstützung verschiedener Betriebssysteme und Kommunikationsprotokolle als auch die Möglichkeit, unterschiedliche Angriffsszenarien abzubilden. Während in einer Umgebung kurzfristige Interaktion im Vordergrund stehen kann, ist in einer anderen die Simulation persistenter, langfristiger Zugriffe entscheidend. Die Fähigkeit, Kommunikationsmodelle, Module und Einsatzparameter situationsabhängig zu konfigurieren, ist daher essenziell.
+\newline\newline
+Gerade im regulierten Umfeld, etwa im Kontext von NIS-2 oder kritischen Infrastrukturen, ist eine kontrollierte und nachvollziehbare Anpassungsfähigkeit von Bedeutung. Ein modernes C2-Framework muss nicht nur technisch leistungsfähig sein, sondern auch strukturiert einsetzbar, dokumentierbar und in bestehende Sicherheitsprozesse integrierbar bleiben.
+
