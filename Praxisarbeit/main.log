@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  18 FEB 2026 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  19 FEB 2026 16:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -905,6 +905,19 @@ Package babel Info: Making " an active character on input line 122.
 ))) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
 Package babel Info: Importing font and identification data for ngerman
 (babel)             from babel-de.ini. Reported on input line 11.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -913,24 +926,24 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count495
@@ -946,37 +959,31 @@ LaTeX Font Info:    ... okay on input line 47.
 \everyMPtoPDFconversion=\toks57
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/local/texlive/2025/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (./main.glsdefs)
-LaTeX Info: Redefining \microtypecontext on input line 47.
-Package microtype Info: Applying patch `item' on input line 47.
-Package microtype Info: Applying patch `toc' on input line 47.
-Package microtype Info: Applying patch `eqnum' on input line 47.
-Package microtype Info: Applying patch `footnote' on input line 47.
-Package microtype Info: Applying patch `verbatim' on input line 47.
-LaTeX Info: Redefining \microtypesetup on input line 47.
+LaTeX Info: Redefining \microtypecontext on input line 48.
+Package microtype Info: Applying patch `item' on input line 48.
+Package microtype Info: Applying patch `toc' on input line 48.
+Package microtype Info: Applying patch `eqnum' on input line 48.
+Package microtype Info: Applying patch `footnote' on input line 48.
+Package microtype Info: Applying patch `verbatim' on input line 48.
+LaTeX Info: Redefining \microtypesetup on input line 48.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 47.
+LaTeX Info: Redefining \showhyphens on input line 48.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 48.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1003,8 +1010,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 47.
-Package biblatex Info: Reference segment=0 on input line 47.
+Package biblatex Info: Reference section=0 on input line 48.
+Package biblatex Info: Reference segment=0 on input line 48.
  (./auxiliar/cover.tex
 <IMG/DHBWLogo.png, id=190, 1204.5pt x 502.87875pt>
 File: IMG/DHBWLogo.png Graphic file (type png)
@@ -1028,7 +1035,7 @@ Overfull \hbox (20.43309pt too wide) in alignment at lines 11--11
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--58
+Underfull \hbox (badness 10000) in paragraph at lines 4--59
 
  []
 
@@ -1063,34 +1070,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--58
 )
 
 [8]
-Underfull \hbox (badness 1292) in paragraph at lines 124--124
+Underfull \hbox (badness 1292) in paragraph at lines 125--125
 \OT1/cmr/m/n/10 (+20) and Con-trol Fra-me-works im
  []
 
 
 
 [9] (./auxiliar/vorwort.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1--133
+Underfull \hbox (badness 10000) in paragraph at lines 1--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--133
+Underfull \hbox (badness 10000) in paragraph at lines 1--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--133
+Underfull \hbox (badness 10000) in paragraph at lines 1--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--133
+Underfull \hbox (badness 10000) in paragraph at lines 1--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--133
+Underfull \hbox (badness 10000) in paragraph at lines 1--134
 
  []
 
@@ -1129,12 +1136,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.14 I
       m Gegensatz zu klassischen Penetrationstests, die häufig auf die Iden... [1])
-Underfull \hbox (badness 10000) in paragraph at lines 16--136
+Underfull \hbox (badness 10000) in paragraph at lines 16--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--136
+Underfull \hbox (badness 10000) in paragraph at lines 16--137
 
  []
 
@@ -1142,31 +1149,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--136
 
 [2 <./IMG/cyber_kill_chain.png>]
 
-[3] (./Kapitel_2/grundlagen.tex)
+[3] (./Kapitel_2/grundlagen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
 
-[4] (./Kapitel_3/c2frameworks.tex)
+ []
 
-[5] (./Kapitel_4/sliver.tex)
 
-[6] (./Kapitel_5/vergleich.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+
+ []
+
+
+Overfull \hbox (21.20784pt too wide) in paragraph at lines 13--22
+\OT1/cmr/m/n/10 (-20) and-Control-Infrastruktur bil-det einen zen-tra-len Be-stand-teil mo-der-ner C2-Frameworks.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--22
+
+ []
+
+
+Overfull \hbox (12.0866pt too wide) in paragraph at lines 13--22
+\OT1/cmr/m/n/10 (-20) in un-ter-schied-li-cher Form um. W[]ahrend klas-si-sche Meterpreter-Sessions []uberwiegend
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--22
+
+ []
+
+
+
+[4])
+
+[5] (./Kapitel_3/c2frameworks.tex)
+
+[6] (./Kapitel_4/sliver.tex)
+
+[7] (./Kapitel_5/vergleich.tex
 Overfull \hbox (46.27158pt too wide) in paragraph at lines 1--1
 []\OT1/cmr/bx/n/14.4 (-20) Vergleichende Ge-gen[]uberstellung der C2-Frameworks 
  []
 
 )
 
-[7] (./Kapitel_6/praxisbezug.tex)
+[8] (./Kapitel_6/praxisbezug.tex)
 
-[8] (./Kapitel_7/uebergang.tex)
+[9] (./Kapitel_7/uebergang.tex)
 
-[9] (./Kapitel_8/fazit.tex)
+[10] (./Kapitel_8/fazit.tex)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[10] (./main.aux)
+[11] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1178,18 +1227,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38765 strings out of 473190
- 754949 string characters out of 5715800
- 1667867 words of memory out of 5000000
- 61260 multiletter control sequences out of 15000+600000
- 565534 words of font info for 111 fonts, out of 8000000 for 9000
+ 40344 strings out of 473190
+ 792000 string characters out of 5715800
+ 1691762 words of memory out of 5000000
+ 62829 multiletter control sequences out of 15000+600000
+ 565738 words of font info for 115 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,12n,101p,2429b,2475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (21 pages, 320242 bytes).
+Output written on main.pdf (22 pages, 326458 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 356 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 363 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
  25484 words of extra memory for PDF output out of 29859 (max. 10000000)
 

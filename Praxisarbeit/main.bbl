@@ -38,6 +38,28 @@
       \verb https://www.microsoft.com/de-de/security/business/security-101/what-is-cyber-kill-chain
       \endverb
     \endentry
+    \entry{c2_varonis2026}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Dieser Beitrag befasst sich mit der Command-and-Control-Infrastruktur (C2), mit der Angreifer infizierte Geräte kontrollieren und sensible Daten während eines Cyberangriffs stehlen.}
+      \field{langid}{german}
+      \field{shorttitle}{Was ist C2?}
+      \field{title}{Was ist C2? Command-and-Control-Infrastruktur erklärt {|} Varonis}
+      \field{urlday}{19}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/gabriel/Zotero/storage/U96UNNPV/was-ist-c2.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.varonis.com/de/blog/was-ist-c2
+      \endverb
+      \verb{url}
+      \verb https://www.varonis.com/de/blog/was-ist-c2
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
