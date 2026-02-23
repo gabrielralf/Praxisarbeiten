@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  20 FEB 2026 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  23 FEB 2026 15:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1212,31 +1212,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--67
 
 [6])
 
-[7] (./Kapitel_3/c2frameworks.tex)
+[7] (./Kapitel_3/c2frameworks.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
-[8] (./Kapitel_4/sliver.tex)
+ []
 
-[9] (./Kapitel_5/vergleich.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--18
+
+ []
+
+
+
+[8])
+Underfull \hbox (badness 10000) in paragraph at lines 19--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--141
+
+ []
+
+
+
+[9]
+
+[10] (./Kapitel_4/sliver.tex)
+
+[11] (./Kapitel_5/vergleich.tex
 Overfull \hbox (46.27158pt too wide) in paragraph at lines 1--1
 []\OT1/cmr/bx/n/14.4 (-20) Vergleichende Ge-gen[]uberstellung der C2-Frameworks 
  []
 
 )
 
-[10] (./Kapitel_6/praxisbezug.tex)
+[12] (./Kapitel_6/praxisbezug.tex)
 
-[11] (./Kapitel_7/uebergang.tex)
+[13] (./Kapitel_7/uebergang.tex)
 
-[12] (./Kapitel_8/fazit.tex)
+[14] (./Kapitel_8/fazit.tex)
 
-[13]
+[15]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[14] (./main.aux)
+[16] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1248,18 +1307,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40357 strings out of 473190
- 792097 string characters out of 5715800
- 1691762 words of memory out of 5000000
+ 40359 strings out of 473190
+ 792113 string characters out of 5715800
+ 1693762 words of memory out of 5000000
  62829 multiletter control sequences out of 15000+600000
- 565993 words of font info for 120 fonts, out of 8000000 for 9000
+ 565984 words of font info for 120 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,12n,101p,2429b,2475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (25 pages, 331917 bytes).
+Output written on main.pdf (27 pages, 341007 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 374 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 380 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
  25484 words of extra memory for PDF output out of 29859 (max. 10000000)
 

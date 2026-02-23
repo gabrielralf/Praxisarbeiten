@@ -25,23 +25,23 @@
 \contentsline {subsubsection}{\numberline {2.2.4}Flexibilität und Anpassungsfähigkeit}{6}{subsubsection.2.2.4}%
 \contentsline {section}{\numberline {3}Überblick über gängige C2-Frameworks}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Metasploit (MSF)}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Cobalt Strike}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Sliver}{8}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Sliver - Detaillierte Analyse}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Architektur}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Funktionalitäten}{9}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Kommunikationsprotokolle}{9}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Payloads}{9}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Post-Exploitation}{9}{subsubsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.3}Stealth und OPSEC}{9}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Vergleichende Gegenüberstellung der C2-Frameworks}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Techischer Vergleich}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Detection und Blue-Team-Sicht}{10}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Einsatzszenarien}{10}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Praxisbezug}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}}{11}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Obfuscation als logische Weiterentwicklung}{12}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Identifizierte Schwachstellen moderner C2s}{12}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Motivation für Obfuscation}{12}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Ausblick auf kommende Praxisarbeit}{12}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Fazit}{13}{section.8}%
+\contentsline {subsection}{\numberline {3.2}Cobalt Strike}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Sliver}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Sliver - Detaillierte Analyse}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Architektur}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Funktionalitäten}{11}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Kommunikationsprotokolle}{11}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Payloads}{11}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Post-Exploitation}{11}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Stealth und OPSEC}{11}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Vergleichende Gegenüberstellung der C2-Frameworks}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Techischer Vergleich}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Detection und Blue-Team-Sicht}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Einsatzszenarien}{12}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Praxisbezug}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}}{13}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Obfuscation als logische Weiterentwicklung}{14}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Identifizierte Schwachstellen moderner C2s}{14}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Motivation für Obfuscation}{14}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Ausblick auf kommende Praxisarbeit}{14}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Fazit}{15}{section.8}%
