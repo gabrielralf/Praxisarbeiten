@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1771495533.3278 "main.bcf" "main.bbl" "main" 1771857051.81358 0
-  "auxiliar/literature.bib" 1771494806.9824 10465 32ff858e48165c1aef835140dfe9dee7 ""
-  "main.bcf" 1771857051.73085 108005 87ed47a43bde9a7cad193ed10702caf5 "pdflatex"
+["biber main"] 1771924524.12385 "main.bcf" "main.bbl" "main" 1771924527.17854 0
+  "auxiliar/literature.bib" 1771924004.20497 10858 dcbcac946a490ce85f673d4a3ef4bde7 ""
+  "main.bcf" 1771924527.10397 108070 a9e911beab96f0d1b03192ae5a8018fa "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1771857049.76646 "/Users/gabriel/Arbeiten/Praxisarbeiten/Praxisarbeit/main.tex" "main.pdf" "main" 1771857051.8139 0
-  "/Users/gabriel/Arbeiten/Praxisarbeiten/Praxisarbeit/main.tex" 1771586149.96406 5489 19fcdd25078a3194b153601bf0dbbdab ""
+["pdflatex"] 1771924525.45635 "/Users/gabriel/Arbeiten/Praxisarbeiten/Praxisarbeit/main.tex" "main.pdf" "main" 1771924527.17883 0
+  "/Users/gabriel/Arbeiten/Praxisarbeiten/Praxisarbeit/main.tex" 1771924522.18761 5487 f18d4185b6375df6460086299542de6f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -203,7 +203,7 @@
   "IMG/cyber_kill_chain.png" 1771410238.22809 101666 f4e7299926bf68321f6ec316bca30eb5 ""
   "Kapitel_1/einleitung.tex" 1771495454.29082 4429 8124c11643639520e2b95a690e2454ae ""
   "Kapitel_2/grundlagen.tex" 1771586150.07054 8371 0129f06be29d1463d6b9822f6ce510e3 ""
-  "Kapitel_3/c2frameworks.tex" 1771857047.45706 8078 ee41dc3cfc9ef05cd5d9203f52072687 ""
+  "Kapitel_3/c2frameworks.tex" 1771924106.37229 8096 7c14f635d36bfbce6e1d778ca2701539 ""
   "Kapitel_4/sliver.tex" 1771320980.0688 667 2ae15c123e683b3c196490cf9eb7b679 ""
   "Kapitel_5/vergleich.tex" 1771321221.33644 1250 426143d32bc45e262dd656a77d3733bb ""
   "Kapitel_6/praxisbezug.tex" 1771321628.22073 35 bada0778a92c56af65e30db8935ff576 ""
@@ -213,15 +213,15 @@
   "auxiliar/cover.tex" 1771255974.98092 1095 00b496dc70b76e76ee08266da3fe8532 ""
   "auxiliar/declaration.tex" 1771194900.75139 679 33610a0211e9078e9f6256237022f844 ""
   "auxiliar/vorwort.tex" 1771625797.67128 2765 04f2ac166aafcc1dd0706c2455e5c38f ""
-  "main.aux" 1771857051.72575 7664 fcfd8f74a056badecff2f1aad14213f1 "pdflatex"
-  "main.bbl" 1771495534.6488 2443 f49e08f0b770ab0c3e603e32aeebd012 "biber main"
-  "main.glsdefs" 1771857051.72524 6839 31df49f3f065650363347c0847d8534b "pdflatex"
-  "main.lof" 1771857051.73183 116 f26808470c6e68e056f1cc89c2fe73b4 "pdflatex"
-  "main.lot" 1771857051.73185 245 3c7198fb4b2c549faf0ae85b54510cd7 "pdflatex"
-  "main.out" 1771857051.72767 8386 aa2662ad6b917294a988cc14cf935fa6 "pdflatex"
-  "main.run.xml" 1771857051.73173 2484 047aefc26a9552462179a3a3d8282fd9 "pdflatex"
-  "main.tex" 1771586149.96406 5489 19fcdd25078a3194b153601bf0dbbdab ""
-  "main.toc" 1771857051.7318 4013 a90d592ada6ae6b07660f5d7d743e7ad "pdflatex"
+  "main.aux" 1771924527.09933 7802 ce26f5c794ffbcb90a3cc2e7b61f6abe "pdflatex"
+  "main.bbl" 1771924525.71319 3286 f4c48413ebed27be05b869606373e491 "biber main"
+  "main.glsdefs" 1771924527.09858 6839 31df49f3f065650363347c0847d8534b "pdflatex"
+  "main.lof" 1771924527.10482 116 f26808470c6e68e056f1cc89c2fe73b4 "pdflatex"
+  "main.lot" 1771924527.10485 245 3c7198fb4b2c549faf0ae85b54510cd7 "pdflatex"
+  "main.out" 1771924527.1012 8386 aa2662ad6b917294a988cc14cf935fa6 "pdflatex"
+  "main.run.xml" 1771924527.10472 2441 3d3c79ae6bd9e999839ec864077c8c83 "pdflatex"
+  "main.tex" 1771924522.18761 5487 f18d4185b6375df6460086299542de6f ""
+  "main.toc" 1771924527.10479 4013 a90d592ada6ae6b07660f5d7d743e7ad "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

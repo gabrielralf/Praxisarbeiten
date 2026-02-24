@@ -60,6 +60,28 @@
       \verb https://www.varonis.com/de/blog/was-ist-c2
       \endverb
     \endentry
+    \entry{msf_module}{online}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{View Metasploit Framework Documentation}
+      \field{langid}{american}
+      \field{title}{Modules}
+      \field{titleaddon}{Metasploit Documentation Penetration Testing Software, Pen Testing Security}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/gabriel/Zotero/storage/MIHPAB66/modules.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://rapid7.github.io/metasploit-framework/docs/modules.html
+      \endverb
+      \verb{url}
+      \verb https://rapid7.github.io/metasploit-framework/docs/modules.html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
