@@ -82,6 +82,47 @@
       \verb https://rapid7.github.io/metasploit-framework/docs/modules.html
       \endverb
     \endentry
+    \entry{sliver_doc}{online}{}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Sliver Docs: Architecture}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Sliver Docs\: Architecture:/Users/gabriel/Zotero/storage/MAZVMHIX/docs.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://sliver.sh/docs?name=Architecture
+      \endverb
+      \verb{url}
+      \verb https://sliver.sh/docs?name=Architecture
+      \endverb
+    \endentry
+    \entry{grpc}{online}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A high-performance, open source universal {RPC} framework}
+      \field{langid}{english}
+      \field{title}{{gRPC}}
+      \field{titleaddon}{{gRPC}}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/gabriel/Zotero/storage/PZ8C7PJD/grpc.io.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://grpc.io/
+      \endverb
+      \verb{url}
+      \verb https://grpc.io/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

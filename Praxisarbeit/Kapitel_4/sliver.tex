@@ -1,14 +1,44 @@
 \section{Sliver - Detaillierte Analyse}
+Nach der vergleichenden Einordnung gängiger Command-and-Control-Frameworks im vorherigen Kapitel erfolgt nun eine vertiefte Analyse des Frameworks Sliver. Ziel dieses Kapitels ist es, die architektonischen Konzepte, Kommunikationsmechanismen und operativen Eigenschaften des Systems systematisch zu untersuchen und im Kontext der zuvor definierten Anforderungen an moderne C2-Infrastrukturen zu bewerten.
 \subsection{Architektur}
-- Server client modell
-- modulare Struktur
+Die Architektur von Sliver folgt einem klar strukturierten Client-Server-Modell, das auf eine logische Trennung zwischen Steuerungsinstanz, Operator-Zugriff und kompromittierten Endsystemen ausgelegt ist. Dieses Design unterstützt sowohl Skalierbarkeit als auch operationelle Sicherheit und bildet die Grundlage für den modularen Aufbau des Frameworks \cite{sliver_doc}.
+\subsubsection{Sliver Server}
+Der Sliver Server bildet die zentrale Steuerungsinstanz der gesamten C2-Infrastruktur. Er verwaltet den operativen Zustand laufender Kampagnen und übernimmt die Koordination zwischen Operatoren und kompromittierten Endsystemen. Ein wesentliches Element ist die interne Zustandsverwaltung, die aktive Beacons, Sessions, Listener sowie generierte Implantate strukturiert erfasst und verwaltet. Diese interne Datenhaltung ermöglicht eine konsistente Verwaltung paralleler Verbindungen und stellt sicher, dass Aufgaben, Jobs und Statusinformationen nachvollziehbar gespeichert werden.
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{IMG/sliver_server.png}
+\caption{Sliver Server CLI}
+\label{server}
+\end{figure}
+Darüber hinaus ist der Server für das Starten und Stoppen aktiver Listener verantwortlich. Listener definieren die Kommunikationsendpunkte, über die Implantate eine Verbindung zur C2-Infrastruktur herstellen können. Durch die Möglichkeit, mehrere Listener mit unterschiedlichen Transportprotokollen parallel zu betreiben, wird eine flexible und segmentierte Infrastruktur unterstützt.
+\newline\newline
+Die Kommunikation zwischen Server und Operator-Clients erfolgt über gRPC\footnote{gRPC (Google Remote Procedure Call) ist ein Open-Source Framework für Remote Procedure Calls. Es ermöglicht Anwendungen, Funktionen auf einem Server so aufzurufen, als wären sie lokal. \cite{grpc}} und ist durch gegenseitige TLS-Authentifizierung abgesichert. Dieses Design erlaubt eine strukturierte, typisierte Befehlsübertragung sowie eine klare Identitätsprüfung der zugreifenden Operatoren. Der Server fungiert somit nicht nur als Vermittlungsinstanz, sondern als kontrolliertes Verwaltungs- und Sicherheitszentrum der gesamten C2-Architektur.
+\subsubsection{Sliver Client}
+Der Sliver Client stellt die operative Schnittstelle für Operatoren dar und ist primär als Kommandozeileninterface (CLI) implementiert. Über den Client werden Listener konfiguriert, Implantate generiert und aktive Beacons oder Sessions verwaltet. Die Trennung zwischen Server und Client ermöglicht es, mehrere Operatoren parallel mit derselben Infrastruktur arbeiten zu lassen.
+\newline\newline
+Jeder Operator verfügt über eine individuelle Konfigurationsdatei, die kryptografisches Material enthält und eine eindeutige Identitätszuordnung erlaubt. Dieses Multi-Operator-Modell unterstützt koordinierte Red-Team-Operationen und gewährleistet gleichzeitig Zugriffskontrolle.
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{IMG/sliver_client.png}
+\caption{Sliver Client CLI}
+\label{client}
+\end{figure}
+Ein zentraler Bestandteil der Client-Funktionalität ist die Generierung von Implantaten. Dabei werden Kommunikationsparameter, Transportprotokolle sowie Betriebsmodi bereits zur Compile-Zeit definiert. Zusätzlich übernimmt der Client die Verwaltung aktiver Beacons und Sessions, wodurch laufende Verbindungen überwacht und gesteuert werden können.
+\subsubsection{Implantate}
+- Payload der ausgeführt wird, um C2-Kommunikation zu etablieren
+- Beacon vs Session basierte Modelle
 - plattformübergreifend (Windows, Linux, macOS)
-\subsection{Funktionalitäten}
-\subsubsection{Kommunikationsprotokolle} 
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{IMG/sliver_client_server.png}
+\caption{Server-Client Modell}
+\label{server_client}
+\end{figure}
+\subsection{Kommunikation} 
 - (HTTP, HTTPS, DNS, etc.)
-\subsubsection{Payloads}    
+\subsubsection{Payloads}
 - Staged vs. Stageless
--Cross Compilation
+- Cross Compilation
 - Verschiedene Shell-Typen (Reverse Shell, Bind Shell, etc.)
 \subsubsection{Post-Exploitation}
 - Privilige Escalation
@@ -21,4 +51,3 @@
 - Verschleierungstechniken
 - Anti-Forensic Features
 - Erkennung von EDR/AV-Systemen
-- Vergleich zu cobalt strike
