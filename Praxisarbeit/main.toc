@@ -1,49 +1,45 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{Sperrvermerk}{i}{section*.1}%
 \contentsline {section}{Erklärung zur Eigenleistung}{ii}{section*.2}%
-\contentsline {section}{Abstract}{iii}{section*.4}%
-\contentsline {section}{Abstract}{iii}{section*.4}%
-\contentsline {section}{Inhaltsverzeichnis}{iv}{section*.5}%
-\contentsline {section}{Abbildungsverzeichnis}{vi}{section*.7}%
-\contentsline {section}{Tabellenverzeichnis (Eigene Darstellung)}{vii}{section*.9}%
-\contentsline {section}{Abkürzungsverzeichnis}{viii}{section*.11}%
-\contentsline {section}{Überblick der Tätigkeiten der Praxisphasen}{ix}{section*.12}%
-\contentsline {section}{Vorwort}{x}{section*.13}%
+\contentsline {section}{Inhaltsverzeichnis}{v}{section*.6}%
+\contentsline {section}{Abbildungsverzeichnis}{vii}{section*.8}%
+\contentsline {section}{Tabellenverzeichnis (Eigene Darstellung)}{viii}{section*.10}%
+\contentsline {section}{Abkürzungsverzeichnis}{ix}{section*.12}%
+\contentsline {section}{Überblick der Tätigkeiten der Praxisphasen}{x}{section*.13}%
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Ziel der Praxisarbeit}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Einordnung von Command-and-Control (C2) im Red Teaming}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Relevanz moderner C2-Frameworks für realistische Angreifersimulationen}{2}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Theoretische Grundlagen}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Command-and-Control (C2) - Grundkonzept}{4}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Definition und Zweck von C2}{4}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Klassischer Kill-Chain Kontext}{4}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Beaconing und Kommunikation in C2-Frameworks}{4}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}Anforderungen an moderne C2-Frameworks}{5}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Stealth und OPSEC}{5}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Modularität}{6}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Umgehung von EDR/AV-Systemen}{6}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Flexibilität und Anpassungsfähigkeit}{6}{subsubsection.2.2.4}%
-\contentsline {section}{\numberline {3}Überblick über gängige C2-Frameworks}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Metasploit (MSF)}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Cobalt Strike}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Sliver}{9}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Sliver - Detaillierte Analyse}{11}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Architektur}{11}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Sliver Server}{11}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Sliver Client}{12}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Implantate}{13}{subsubsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.2}Kommunikation}{14}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Payloads}{14}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Post-Exploitation}{14}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Stealth und OPSEC}{14}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Vergleichende Gegenüberstellung der C2-Frameworks}{15}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Techischer Vergleich}{15}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Detection und Blue-Team-Sicht}{15}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Einsatzszenarien}{15}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Praxisbezug}{16}{section.6}%
-\contentsline {subsection}{\numberline {6.1}}{16}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Obfuscation als logische Weiterentwicklung}{17}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Identifizierte Schwachstellen moderner C2s}{17}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Motivation für Obfuscation}{17}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Ausblick auf kommende Praxisarbeit}{17}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Fazit}{18}{section.8}%
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Command-and-Control (C2) - Grundkonzept}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Definition und Zweck von C2}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Beaconing und Kommunikation in C2-Frameworks}{3}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Anforderungen an moderne C2-Frameworks}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Stealth und OPSEC}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Modularität}{4}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Umgehung von EDR/AV-Systemen}{4}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Flexibilität und Anpassungsfähigkeit}{5}{subsubsection.2.2.4}%
+\contentsline {section}{\numberline {3}Überblick über gängige C2-Frameworks}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Metasploit (MSF)}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cobalt Strike}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Sliver}{7}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Sliver - Detaillierte Analyse}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Architektur}{9}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Sliver Server}{9}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Sliver Client}{10}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Implantate}{11}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Kommunikation}{12}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Payloads}{12}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Post-Exploitation}{12}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Stealth und OPSEC}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Gegenüberstellung der C2-Frameworks}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Techischer Vergleich}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Detection und Blue-Team-Sicht}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Einsatzszenarien}{13}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Praxisbezug}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}}{14}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Obfuscation als logische Weiterentwicklung}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Identifizierte Schwachstellen moderner C2s}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Motivation für Obfuscation}{15}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Ausblick auf kommende Praxisarbeit}{15}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Fazit}{16}{section.8}%

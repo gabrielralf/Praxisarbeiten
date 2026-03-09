@@ -51,22 +51,15 @@
 \newpage
 \section*{Sperrvermerk}
 \addcontentsline{toc}{section}{Sperrvermerk}
-    Der Inhalt dieser Arbeit darf weder als Ganzes noch in Auszügen Personen außerhalb des Prüfungsprozesses und des Evaluationsverfahrens zugänglich gemacht werden, sofern keine anders lautende Genehmigung des Dualen Partners vorliegt.
+Der Inhalt dieser Arbeit darf weder als Ganzes noch in Auszügen Personen außerhalb des Prüfungsprozesses und des Evaluationsverfahrens zugänglich gemacht werden, sofern keine anders lautende Genehmigung des Dualen Partners vorliegt.
 \newpage
 \section*{}
 \addcontentsline{toc}{section}{Erklärung zur Eigenleistung}
 \input{auxiliar/declaration}
 \newpage
-\section*{}
-\addcontentsline{toc}{section}{Abstract}
-\addcontentsline{toc}{section}{Abstract}
-\begin{abstract}
-\begin{large}
-The present report focuses on the analysis of modern Command-and-Control (C2) frameworks in the context of Red Team operations. C2 infrastructures represent a core component of realistic attack simulations, as they enable the centralized control of compromised systems and the execution of post-exploitation activities. \\
-The work provides a technical examination of contemporary C2 frameworks, with a particular focus on the Sliver framework. In addition, established solutions such as Metasploit and Cobalt Strike are comparatively assessed to identify architectural differences, operational characteristics, and typical use cases. The results contribute to evaluating the suitability of modern C2 frameworks for penetration testing as a service offering within the Service Central Cyber-Security (SZC) department and provide a foundation for further investigations in the area of payload and communication obfuscation.
-\end{large}
-\end{abstract}
+\input{auxiliar/abstract}
 \newpage
+\input{auxiliar/zusammenfassung}
 \newpage
 \section*{}
 \addcontentsline{toc}{section}{Inhaltsverzeichnis}
@@ -95,13 +88,23 @@ The work provides a technical examination of contemporary C2 frameworks, with a 
 ABB  & Asea Brown Boveri \\
 AD   & Active Directory \\
 IT   & Informations Technologie \\
-PAEN & Process Automation Energy Industries \\
-SZC  & Service Zentralbereich Cyber-Security \\
-OPSEC & Operational Security \\
 C2   & Command and Control \\
 EDR  & Endpoint Detection and Response \\
+gRPC & Google Remote Procedure Call \\
+HTTP & Hypertext Transfer Protocol \\
+HTTPS & Hypertext Transfer Protocol Secure \\
+IP   & Internet Protocol \\
+KRITIS & Kritische Infrastrukturen \\
+NIS-2 & Network and Information Systems Directive 2 \\
+OT   & Operational Technology \\
+DNS  & Domain Name System \\
+TLS  & Transport Layer Security \\
+OPSEC & Operational Security \\
+PAEN & Process Automation Energy Industries \\
+SZC  & Service Zentralbereich Cyber-Security \\
 SOC  & Security Operations Center \\
 SIEM & Security Information and Event Management \\
+
 \bottomrule
 \end{tabularx}
     \caption{Abkürzungsverzeichnis}
@@ -128,13 +131,10 @@ SIEM & Security Information and Event Management \\
 \end{table}
 }
 \newpage
-\section*{Vorwort}
-\addcontentsline{toc}{section}{Vorwort}
-\input{auxiliar/vorwort}
+%\input{auxiliar/vorwort}
 \newpage 
 \pagenumbering{arabic}
 \input{Kapitel_1/einleitung}
-\newpage
 \input{Kapitel_2/grundlagen}
 \newpage
 \input{Kapitel_3/c2frameworks}

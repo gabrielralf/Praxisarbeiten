@@ -60,9 +60,53 @@
       \verb https://www.varonis.com/de/blog/was-ist-c2
       \endverb
     \endentry
-    \entry{msf_module}{online}{}{}
+    \entry{beacon_session}{online}{}{}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Adversary Emulation Framework. Contribute to {BishopFox}/sliver development by creating an account on {GitHub}.}
+      \field{langid}{english}
+      \field{title}{Getting Started}
+      \field{titleaddon}{{GitHub}}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/gabriel/Zotero/storage/LLXIWFXV/Getting-Started.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/BishopFox/sliver/wiki/Getting-Started
+      \endverb
+      \verb{url}
+      \verb https://github.com/BishopFox/sliver/wiki/Getting-Started
+      \endverb
+    \endentry
+    \entry{heuristic}{online}{}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Heuristic detection is using algorithms and rules to identify suspicious based on predefined behaviors and patterns. Read more.}
+      \field{langid}{american}
+      \field{title}{Heuristic Detection}
+      \field{titleaddon}{Multilogin}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/gabriel/Zotero/storage/PHNHAJA6/heuristic-detection.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://multilogin.com/glossary/heuristic-detection/
+      \endverb
+      \verb{url}
+      \verb https://multilogin.com/glossary/heuristic-detection/
+      \endverb
+    \endentry
+    \entry{msf_module}{online}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{abstract}{View Metasploit Framework Documentation}
       \field{langid}{american}
@@ -83,8 +127,8 @@
       \endverb
     \endentry
     \entry{sliver_doc}{online}{}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{Sliver Docs: Architecture}
       \field{urlday}{25}
@@ -102,8 +146,8 @@
       \endverb
     \endentry
     \entry{grpc}{online}{}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{abstract}{A high-performance, open source universal {RPC} framework}
       \field{langid}{english}
