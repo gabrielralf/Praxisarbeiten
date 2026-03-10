@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  9 MAR 2026 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  10 MAR 2026 10:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -926,24 +926,24 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count495
@@ -963,27 +963,27 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (./main.glsdefs)
-LaTeX Info: Redefining \microtypecontext on input line 48.
-Package microtype Info: Applying patch `item' on input line 48.
-Package microtype Info: Applying patch `toc' on input line 48.
-Package microtype Info: Applying patch `eqnum' on input line 48.
-Package microtype Info: Applying patch `footnote' on input line 48.
-Package microtype Info: Applying patch `verbatim' on input line 48.
-LaTeX Info: Redefining \microtypesetup on input line 48.
+LaTeX Info: Redefining \microtypecontext on input line 44.
+Package microtype Info: Applying patch `item' on input line 44.
+Package microtype Info: Applying patch `toc' on input line 44.
+Package microtype Info: Applying patch `eqnum' on input line 44.
+Package microtype Info: Applying patch `footnote' on input line 44.
+Package microtype Info: Applying patch `verbatim' on input line 44.
+LaTeX Info: Redefining \microtypesetup on input line 44.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 48.
+LaTeX Info: Redefining \showhyphens on input line 44.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 44.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1010,15 +1010,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 48.
-Package biblatex Info: Reference segment=0 on input line 48.
+Package biblatex Info: Reference section=0 on input line 44.
+Package biblatex Info: Reference segment=0 on input line 44.
  (./auxiliar/cover.tex
-<IMG/DHBWLogo.png, id=183, 1204.5pt x 502.87875pt>
+<IMG/DHBWLogo.png, id=187, 1204.5pt x 502.87875pt>
 File: IMG/DHBWLogo.png Graphic file (type png)
 <use IMG/DHBWLogo.png>
 Package pdftex.def Info: IMG/DHBWLogo.png  used on input line 3.
 (pdftex.def)             Requested size: 170.37486pt x 71.13188pt.
-<IMG/ABBLogo.png, id=185, 2007.5pt x 1147.28625pt>
+<IMG/ABBLogo.png, id=189, 2007.5pt x 1147.28625pt>
 File: IMG/ABBLogo.png Graphic file (type png)
 <use IMG/ABBLogo.png>
 Package pdftex.def Info: IMG/ABBLogo.png  used on input line 3.
@@ -1035,17 +1035,17 @@ Overfull \hbox (6.20671pt too wide) in alignment at lines 13--13
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 3--59
+Underfull \hbox (badness 10000) in paragraph at lines 3--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--59
+Underfull \hbox (badness 10000) in paragraph at lines 3--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--59
+Underfull \hbox (badness 10000) in paragraph at lines 3--55
 
  []
 
@@ -1054,17 +1054,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--59
 [2] (./auxiliar/abstract.tex)
 
 [3] (./auxiliar/zusammenfassung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--63
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--63
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--63
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
 
  []
 
@@ -1097,7 +1097,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--63
 )
 
 [9]
-Underfull \hbox (badness 1292) in paragraph at lines 128--128
+Underfull \hbox (badness 1292) in paragraph at lines 123--123
 \OT1/cmr/m/n/10 (+20) and Con-trol Fra-me-works im
  []
 
@@ -1118,7 +1118,7 @@ Overfull \hbox (9.18555pt too wide) in paragraph at lines 3--14
 \OT1/cmr/m/n/10 (-20) Auf Ba-sis die-ser Ana-ly-se wer-den die Ein-satzm[]oglichkeiten mo-der-ner C2-Frameworks
  []
 
-<IMG/cyber_kill_chain.png, id=302, 803.0pt x 401.5pt>
+<IMG/cyber_kill_chain.png, id=307, 803.0pt x 401.5pt>
 File: IMG/cyber_kill_chain.png Graphic file (type png)
 <use IMG/cyber_kill_chain.png>
 Package pdftex.def Info: IMG/cyber_kill_chain.png  used on input line 20.
@@ -1176,72 +1176,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--50
 
 
 
-[4])
-Underfull \hbox (badness 10000) in paragraph at lines 51--139
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--139
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--73
 
  []
 
 
 
-[5] (./Kapitel_3/c2frameworks.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 74--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 74--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--27
+Underfull \hbox (badness 10000) in paragraph at lines 74--86
 
  []
 
 
 
 [6])
-Underfull \hbox (badness 10000) in paragraph at lines 28--141
+Underfull \hbox (badness 10000) in paragraph at lines 87--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--141
+Underfull \hbox (badness 10000) in paragraph at lines 87--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--141
+Underfull \hbox (badness 10000) in paragraph at lines 87--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--141
+Underfull \hbox (badness 10000) in paragraph at lines 87--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--141
+Underfull \hbox (badness 10000) in paragraph at lines 87--134
 
  []
 
@@ -1249,12 +1249,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--141
 
 [7]
 
-[8] (./Kapitel_4/sliver.tex
+[8] (./Kapitel_3/methodik.tex)
+
+[9] (./Kapitel_4/durchf.tex
 Overfull \hbox (3.31776pt too wide) in paragraph at lines 2--3
 \OT1/cmr/m/n/10 (-20) Nach der ver-glei-chen-den Ein-ord-nung g[]angiger Command-and-Control-Frameworks
  []
 
-<IMG/sliver_server.png, id=347, 530.98375pt x 222.8325pt>
+<IMG/sliver_server.png, id=356, 530.98375pt x 222.8325pt>
 File: IMG/sliver_server.png Graphic file (type png)
 <use IMG/sliver_server.png>
 Package pdftex.def Info: IMG/sliver_server.png  used on input line 10.
@@ -1271,8 +1273,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--18
 
 
 
-[9 <./IMG/sliver_server.png>]
-<IMG/sliver_client.png, id=356, 524.96124pt x 359.3425pt>
+[10 <./IMG/sliver_server.png>]
+<IMG/sliver_client.png, id=365, 524.96124pt x 359.3425pt>
 File: IMG/sliver_client.png Graphic file (type png)
 <use IMG/sliver_client.png>
 Package pdftex.def Info: IMG/sliver_client.png  used on input line 24.
@@ -1284,55 +1286,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--27
 
 
 
-[10]
-<IMG/sliver_client_server.png, id=366, 876.27374pt x 511.9125pt>
+[11]
+<IMG/sliver_client_server.png, id=375, 876.27374pt x 511.9125pt>
 File: IMG/sliver_client_server.png Graphic file (type png)
 <use IMG/sliver_client_server.png>
 Package pdftex.def Info: IMG/sliver_client_server.png  used on input line 35.
 (pdftex.def)             Requested size: 345.0pt x 201.551pt.
 
 
-[11 <./IMG/sliver_client.png>])
+[12 <./IMG/sliver_client.png>])
 
-[12 <./IMG/sliver_client_server.png>] (./Kapitel_5/vergleich.tex)
+[13 <./IMG/sliver_client_server.png>] (./Kapitel_5/ergebnisse.tex)
 
-[13] (./Kapitel_6/praxisbezug.tex)
+[14] (./Kapitel_6/diskussion.tex)
 
-[14] (./Kapitel_7/uebergang.tex)
+[15] (./Kapitel_7/fazit.tex)
 
-[15] (./Kapitel_8/fazit.tex)
+[16] (./Kapitel_8/ausblick.tex)
 
-[16]
+[17]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[17] (./main.aux)
+[18] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D9B73D0EFB6315D312AEF5AA34A4AEEE;8023.
+(rerunfilecheck)             Checksum: CC88A0876B9FF9CCB910C28560838CE9;8158.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40407 strings out of 473190
- 793674 string characters out of 5715800
- 1694216 words of memory out of 5000000
- 62877 multiletter control sequences out of 15000+600000
+ 40398 strings out of 473190
+ 793337 string characters out of 5715800
+ 1693219 words of memory out of 5000000
+ 62866 multiletter control sequences out of 15000+600000
  567146 words of font info for 117 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,12n,101p,2429b,2475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (28 pages, 637844 bytes).
+Output written on main.pdf (29 pages, 638253 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 408 compressed objects within 5 object streams
- 93 named destinations out of 1000 (max. 500000)
- 25483 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 477 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 25491 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -20,17 +20,13 @@
 \addbibresource{auxiliar/literature.bib}
 \bibliography{auxiliar/literature.bib}
 \pagestyle{fancy}
-
 % Header-Stil definieren
 \fancyhf{} % alle Felder leeren
 \fancyhead[L]{\textbf{Gabriel Lanz}} % links
 \fancyhead[R]{\textbf{TINF24AI1 - 6613445}} % rechts
 \fancyfoot[C]{\thepage}
-
-
 % Optional: Linien oben/unten entfernen oder anpassen
 \renewcommand{\headrulewidth}{0.4pt} % Linie unter dem Header
-
 \renewcommand{\listfigurename}{Abbildungsverzeichnis}
 \renewcommand{\listtablename}{Tabellenverzeichnis}
 \renewcommand{\contentsname}{Inhaltsverzeichnis}
@@ -104,7 +100,6 @@ PAEN & Process Automation Energy Industries \\
 SZC  & Service Zentralbereich Cyber-Security \\
 SOC  & Security Operations Center \\
 SIEM & Security Information and Event Management \\
-
 \bottomrule
 \end{tabularx}
     \caption{Abkürzungsverzeichnis}
@@ -137,17 +132,17 @@ SIEM & Security Information and Event Management \\
 \input{Kapitel_1/einleitung}
 \input{Kapitel_2/grundlagen}
 \newpage
-\input{Kapitel_3/c2frameworks}
+\input{Kapitel_3/methodik.tex}
 \newpage
-\input{Kapitel_4/sliver}
+\input{Kapitel_4/durchf.tex}
 \newpage
-\input{Kapitel_5/vergleich}
+\input{Kapitel_5/ergebnisse.tex}
 \newpage
-\input{Kapitel_6/praxisbezug}
+\input{Kapitel_6/diskussion.tex}
 \newpage
-\input{Kapitel_7/uebergang}
+\input{Kapitel_7/fazit.tex}
 \newpage
-\input{Kapitel_8/fazit}
+\input{Kapitel_8/ausblick.tex}
 \newpage
 \printbibliography
 \end{document}
