@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  10 MAR 2026 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.15)  11 MAR 2026 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1013,12 +1013,12 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 44.
 Package biblatex Info: Reference segment=0 on input line 44.
  (./auxiliar/cover.tex
-<IMG/DHBWLogo.png, id=187, 1204.5pt x 502.87875pt>
+<IMG/DHBWLogo.png, id=183, 1204.5pt x 502.87875pt>
 File: IMG/DHBWLogo.png Graphic file (type png)
 <use IMG/DHBWLogo.png>
 Package pdftex.def Info: IMG/DHBWLogo.png  used on input line 3.
 (pdftex.def)             Requested size: 170.37486pt x 71.13188pt.
-<IMG/ABBLogo.png, id=189, 2007.5pt x 1147.28625pt>
+<IMG/ABBLogo.png, id=185, 2007.5pt x 1147.28625pt>
 File: IMG/ABBLogo.png Graphic file (type png)
 <use IMG/ABBLogo.png>
 Package pdftex.def Info: IMG/ABBLogo.png  used on input line 3.
@@ -1104,27 +1104,27 @@ Underfull \hbox (badness 1292) in paragraph at lines 123--123
 
 
 [10] (./Kapitel_1/einleitung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
 
  []
 
 
-Overfull \hbox (9.18555pt too wide) in paragraph at lines 3--14
+Overfull \hbox (9.18555pt too wide) in paragraph at lines 6--16
 \OT1/cmr/m/n/10 (-20) Auf Ba-sis die-ser Ana-ly-se wer-den die Ein-satzm[]oglichkeiten mo-der-ner C2-Frameworks
  []
 
-<IMG/cyber_kill_chain.png, id=307, 803.0pt x 401.5pt>
+<IMG/cyber_kill_chain.png, id=302, 803.0pt x 401.5pt>
 File: IMG/cyber_kill_chain.png Graphic file (type png)
 <use IMG/cyber_kill_chain.png>
-Package pdftex.def Info: IMG/cyber_kill_chain.png  used on input line 20.
+Package pdftex.def Info: IMG/cyber_kill_chain.png  used on input line 22.
 (pdftex.def)             Requested size: 345.0pt x 172.50072pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--23
+Underfull \hbox (badness 10000) in paragraph at lines 17--25
 
  []
 
@@ -1134,207 +1134,369 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--23
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 I
+l.26 I
       m Gegensatz zu klassischen Penetrationstests, die häufig auf die Iden... [1]) (./Kapitel_2/grundlagen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 28--1
+Underfull \hbox (badness 10000) in paragraph at lines 30--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--1
+Underfull \hbox (badness 10000) in paragraph at lines 30--1
 
  []
 
 
 
 [2 <./IMG/cyber_kill_chain.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 11--25
+Overfull \hbox (8.29167pt too wide) in paragraph at lines 3--6
+\OT1/cmr/m/n/10 (-20) and-Control (C2) erl[]autert und zen-tra-le An-for-de-run-gen an mo-der-ne C2-Frameworks
+ []
+
+
+Overfull \hbox (14.8801pt too wide) in paragraph at lines 11--17
+\OT1/cmr/m/n/10 (-20) Die Kom-mu-ni-ka-ti-on zwi-schen kom-pro-mit-tier-ten Sys-te-men und ei-ner C2-Infrastruktur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--25
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
 
  []
 
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 30--38
+<Powerpoint/architektur.pdf, id=321, 674.52pt x 308.15125pt>
+File: Powerpoint/architektur.pdf Graphic file (type pdf)
+<use Powerpoint/architektur.pdf>
+Package pdftex.def Info: Powerpoint/architektur.pdf  used on input line 31.
+(pdftex.def)             Requested size: 293.2521pt x 133.97417pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--50
+Underfull \hbox (badness 10000) in paragraph at lines 35--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--46
 
  []
 
 
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 51--60
+[4 <./Powerpoint/architektur.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--60
+Underfull \hbox (badness 10000) in paragraph at lines 52--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--73
+Underfull \hbox (badness 10000) in paragraph at lines 52--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--73
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--73
+Underfull \hbox (badness 10000) in paragraph at lines 67--75
 
  []
 
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 74--86
+Underfull \hbox (badness 10000) in paragraph at lines 76--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--86
+Underfull \hbox (badness 10000) in paragraph at lines 76--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--86
+Underfull \hbox (badness 10000) in paragraph at lines 76--87
 
  []
 
 
-
-[6])
-Underfull \hbox (badness 10000) in paragraph at lines 87--134
+Underfull \hbox (badness 10000) in paragraph at lines 91--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--134
+Underfull \hbox (badness 10000) in paragraph at lines 91--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--134
+Underfull \hbox (badness 10000) in paragraph at lines 91--108
 
  []
 
 
 
-[7]
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 109--127
 
-[8] (./Kapitel_3/methodik.tex)
-
-[9] (./Kapitel_4/durchf.tex
-Overfull \hbox (3.31776pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10 (-20) Nach der ver-glei-chen-den Ein-ord-nung g[]angiger Command-and-Control-Frameworks
- []
-
-<IMG/sliver_server.png, id=356, 530.98375pt x 222.8325pt>
-File: IMG/sliver_server.png Graphic file (type png)
-<use IMG/sliver_server.png>
-Package pdftex.def Info: IMG/sliver_server.png  used on input line 10.
-(pdftex.def)             Requested size: 345.0pt x 144.785pt.
-
-Overfull \hbox (14.48665pt too wide) in paragraph at lines 6--13
-\OT1/cmr/m/n/10 (-20) Der Sli-ver Ser-ver bil-det die zen-tra-le Steue-rungs-in-stanz der ge-sam-ten C2-Infrastruktur.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--18
+Underfull \hbox (badness 10000) in paragraph at lines 109--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--127
 
  []
 
 
 
-[10 <./IMG/sliver_server.png>]
-<IMG/sliver_client.png, id=365, 524.96124pt x 359.3425pt>
-File: IMG/sliver_client.png Graphic file (type png)
-<use IMG/sliver_client.png>
-Package pdftex.def Info: IMG/sliver_client.png  used on input line 24.
-(pdftex.def)             Requested size: 345.0pt x 236.16336pt.
+[7])
+Underfull \hbox (badness 10000) in paragraph at lines 128--134
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--27
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--134
+
+ []
+
+
+
+[8]
+
+[9] (./Kapitel_3/methodik.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--7
+
+ []
+
+
+Overfull \hbox (8.24332pt too wide) in paragraph at lines 2--7
+\OT1/cmr/m/n/10 (-20) Frameworks sys-te-ma-tisch aus-gef[]uhrt und hin-sicht-lich ih-res Ver-hal-tens auf Netzwerk-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
+
+ []
+
+
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 16--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--48
 
  []
 
 
 
 [11]
-<IMG/sliver_client_server.png, id=375, 876.27374pt x 511.9125pt>
-File: IMG/sliver_client_server.png Graphic file (type png)
-<use IMG/sliver_client_server.png>
-Package pdftex.def Info: IMG/sliver_client_server.png  used on input line 35.
-(pdftex.def)             Requested size: 345.0pt x 201.551pt.
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
+
+ []
 
 
-[12 <./IMG/sliver_client.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
 
-[13 <./IMG/sliver_client_server.png>] (./Kapitel_5/ergebnisse.tex)
+ []
 
-[14] (./Kapitel_6/diskussion.tex)
 
-[15] (./Kapitel_7/fazit.tex)
+Overfull \hbox (1.30336pt too wide) in paragraph at lines 51--60
+\OT1/cmr/m/n/10 (-20) in wel-chem Um-fang sich die-se Ak-ti-vit[]aten in Netzwerk- und Sicherheitsmonitoring-
+ []
 
-[16] (./Kapitel_8/ausblick.tex)
 
-[17]
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
+
+ []
+
+
+Overfull \hbox (1.55443pt too wide) in paragraph at lines 51--60
+\OT1/cmr/m/n/10 (-20) schwer-punk-ten. Da-zu geh[]oren der Auf-bau der Command-and-Control-Verbindung,
+ []
+
+
+Overfull \hbox (11.45615pt too wide) in paragraph at lines 51--60
+\OT1/cmr/m/n/10 (-20) die Ana-ly-se der re-sul-tie-ren-den Netz-werk-kom-mu-ni-ka-ti-on, die Un-ter-su-chung m[]oglicher
+ []
+
+
+Overfull \hbox (2.73001pt too wide) in paragraph at lines 51--60
+\OT1/cmr/m/n/10 (-20) Sys-te-mar-te-fak-te so-wie die Be-wer-tung der Er-kenn-bar-keit durch Si-cher-heitsl[]osungen.
+ []
+
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\OT1/cmr/m/n/10 (+20) Analyse der ver-wen-de-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/cmr/m/n/10 (+20) Trans-port-pro-to-kol-le so-wie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/cmr/m/n/10 (+20) C2-Kommunikation zwi-schen
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 98--98
+\OT1/cmr/m/n/10 (+20) kom-pro-mit-tier-tem Sys-tem und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--101
+
+ []
+
+
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+
+ []
+
+
+
+[14]
+
+[15])
+
+[16] (./Kapitel_4/durchf.tex)
+
+[17] (./Kapitel_5/ergebnisse.tex)
+
+[18] (./Kapitel_6/diskussion.tex)
+
+[19] (./Kapitel_7/fazit.tex)
+
+[20] (./Kapitel_8/ausblick.tex)
+
+[21]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[18] (./main.aux)
+[22] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CC88A0876B9FF9CCB910C28560838CE9;8158.
+(rerunfilecheck)             Checksum: B3791C057F70C50FA30AFBE893CF0D98;8371.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40398 strings out of 473190
- 793337 string characters out of 5715800
- 1693219 words of memory out of 5000000
- 62866 multiletter control sequences out of 15000+600000
- 567146 words of font info for 117 fonts, out of 8000000 for 9000
+ 40384 strings out of 473190
+ 792802 string characters out of 5715800
+ 1694194 words of memory out of 5000000
+ 62842 multiletter control sequences out of 15000+600000
+ 565580 words of font info for 113 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,12n,101p,2429b,2475s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (29 pages, 638253 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (33 pages, 394123 bytes).
 PDF statistics:
- 477 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 95 named destinations out of 1000 (max. 500000)
- 25491 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 23425 words of extra memory for PDF output out of 24883 (max. 10000000)
 

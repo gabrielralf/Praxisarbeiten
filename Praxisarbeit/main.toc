@@ -11,36 +11,35 @@
 \contentsline {subsection}{\numberline {1.2}Einordnung von Command-and-Control (C2) im Red Teaming}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Relevanz moderner C2-Frameworks für realistische Angreifersimulationen}{2}{subsection.1.3}%
 \contentsline {section}{\numberline {2}Grundlagen und gängige C2-Frameworks}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Command-and-Control (C2) - Grundkonzept}{3}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Definition und Zweck von C2}{3}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Beaconing und Kommunikation in C2-Frameworks}{3}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Anforderungen an moderne C2-Frameworks}{4}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Stealth und OPSEC}{4}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Modularität}{4}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Umgehung von EDR/AV-Systemen}{4}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Flexibilität und Anpassungsfähigkeit}{5}{subsubsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.3}Überblick über gängige C2-Frameworks}{5}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Metasploit (MSF)}{5}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Cobalt Strike}{6}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Sliver}{7}{subsubsection.2.3.3}%
-\contentsline {section}{\numberline {3}Methodik der Analyse von C2-Frameworks}{9}{section.3}%
-\contentsline {section}{\numberline {4}Durchführung - Analayse des Sliver Frameworks}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Architektur}{10}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Sliver Server}{10}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Sliver Client}{11}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Implantate}{12}{subsubsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.2}Kommunikation}{13}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Payloads}{13}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Post-Exploitation}{13}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Stealth und OPSEC}{13}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Ergebnisse}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Techischer Vergleich}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Detection und Blue-Team-Sicht}{14}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Einsatzszenarien}{14}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Diskussion}{15}{section.6}%
-\contentsline {subsection}{\numberline {6.1}}{15}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Fazit}{16}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Identifizierte Schwachstellen moderner C2s}{16}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Motivation für Obfuscation}{16}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Ausblick auf kommende Praxisarbeit}{16}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Ausblick}{17}{section.8}%
+\contentsline {subsection}{\numberline {2.1}Command-and-Control (C2) – Grundkonzept}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Kommunikation in C2-Frameworks}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Kommunikationsmodelle}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Architektur der C2-Kommunikation}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Anforderungen an moderne C2-Frameworks}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Stealth und OPSEC}{5}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Modularität}{5}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Umgehung von EDR/AV-Systemen}{6}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Flexibilität und Anpassungsfähigkeit}{6}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Überblick über gängige C2-Frameworks}{6}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Metasploit (MSF)}{7}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Cobalt Strike}{7}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Sliver}{8}{subsubsection.2.4.3}%
+\contentsline {section}{\numberline {3}Methodik der Analyse von Sliver C2}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Zielsetzung der Analyse}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Analyseumgebung}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Untersuchungsdesign}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Analysekriterien}{13}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Ablauf der Experimente}{14}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Durchführung - Analyse des Sliver Frameworks}{17}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Aufbau der Testumgebung}{17}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Einrichtung der Sliver Infrastruktur}{17}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Erstellung und Ausführung von Implantaten}{17}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Analyse der C2 Kommunikation}{17}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Analyse der Systemartefakte}{17}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Analyse der Detektion durch Elastic}{17}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Variation der Kommunikationsparameter}{17}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Ergebnisse}{18}{section.5}%
+\contentsline {section}{\numberline {6}Diskussion}{19}{section.6}%
+\contentsline {subsection}{\numberline {6.1}}{19}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Fazit}{20}{section.7}%
+\contentsline {section}{\numberline {8}Ausblick}{21}{section.8}%

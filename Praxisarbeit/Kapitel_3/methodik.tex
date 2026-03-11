@@ -1,1 +1,134 @@
-\section{Methodik der Analyse von C2-Frameworks}
+\section{Methodik der Analyse von Sliver C2}
+Im folgenden Kapitel wird die methodische Vorgehensweise zur Analyse des Command-and-Control-Frameworks Sliver beschrieben. Ziel der Untersuchung ist es, die technischen Eigenschaften sowie die operative Einsetzbarkeit des Frameworks in einer realitätsnahen Umgebung zu analysieren. Besonderes Augenmerk liegt dabei auf der Kommunikationsarchitektur, der Anpassungsfähigkeit der Infrastruktur sowie der Erkennbarkeit durch moderne Sicherheitsmechanismen.
+\\\\
+Die Analyse erfolgt experimentell innerhalb einer kontrollierten Testumgebung, in der ein Sliver-Server betrieben und über einen Operator-Client gesteuert wird. Als Zielsystem dient eine Windows-basierte Maschine innerhalb eines Hack-The-Box-Pro-Labors\cite{pro_labs}, wodurch eine realitätsnahe Angriffs- und Verteidigungsumgebung simuliert werden kann. Zur Beobachtung sicherheitsrelevanter Ereignisse wird zusätzlich das Elastic Security Dashboard eingesetzt, welches Telemetriedaten des Zielsystems sowie Netzwerkaktivitäten visualisiert.
+\\\\
+Im Rahmen der Untersuchung werden verschiedene Funktionen des Sliver-Frameworks systematisch ausgeführt und hinsichtlich ihres Verhaltens auf Netzwerk-, System- und Monitoringebene analysiert. Dazu gehören insbesondere die Generierung und Ausführung von Implantaten, der Aufbau von Command-and-Control-Verbindungen sowie die Variation unterschiedlicher Kommunikationsparameter. Die gewonnenen Beobachtungen bilden die Grundlage für die Bewertung des Frameworks im Hinblick auf die in Kapitel 2 definierten Anforderungen an moderne C2-Infrastrukturen.
+\subsection{Zielsetzung der Analyse}
+Ziel der vorliegenden Analyse ist die systematische Untersuchung des Command-and-Control-Frameworks Sliver hinsichtlich seiner technischen Eigenschaften und seiner Eignung für realistische Red-Team-Szenarien. Dabei wird insbesondere betrachtet, inwieweit das Framework die in Kapitel 2 definierten Anforderungen moderner C2-Infrastrukturen erfüllt.
+\\\\
+Im Mittelpunkt der Untersuchung stehen dabei mehrere zentrale Fragestellungen. Zum einen wird analysiert, wie die Kommunikationsmechanismen des Frameworks umgesetzt sind und welche Netzwerkcharakteristika bei der Interaktion zwischen kompromittierten Systemen und der C2-Infrastruktur entstehen. Zum anderen wird untersucht, in welchem Umfang sich das Verhalten des Frameworks an unterschiedliche Einsatzbedingungen anpassen lässt, beispielsweise durch die Variation von Kommunikationsintervallen, Transportprotokollen oder Infrastrukturparametern.
+\\\\
+Ein weiterer Schwerpunkt der Analyse liegt auf der Erkennbarkeit des Frameworks durch Sicherheitslösungen. Durch die Integration eines Elastic Security Dashboards in die Testumgebung kann beobachtet werden, welche Telemetriedaten während der Ausführung des Frameworks entstehen und ob typische Aktivitäten einer Command-and-Control-Kommunikation identifiziert werden können.
+\\\\
+Die gewonnenen Erkenntnisse dienen dazu, das Sliver-Framework im Kontext moderner C2-Lösungen einzuordnen und seine Stärken sowie potenziellen Schwächen im Hinblick auf Stealth, Flexibilität und operative Einsatzfähigkeit zu bewerten.
+\subsection{Analyseumgebung}
+Die Untersuchung wurde in einer kontrollierten Laborumgebung durchgeführt, um reproduzierbare Ergebnisse zu gewährleisten und die Auswirkungen einzelner Analyseparameter gezielt beobachten zu können. 
+Als Command-and-Control-Infrastruktur wurde ein Sliver-Server betrieben, der über einen dedizierten Operator-Client gesteuert wurde. 
+Die Steuerung der Infrastruktur sowie die Generierung und Verwaltung von Implantaten erfolgte dabei über eine Kali-Linux-basierte Host-Maschine.
+\\\\
+Als Zielsystem diente eine Windows-10-basierte Maschine innerhalb eines Hack The Box Pro Labs. 
+Diese Umgebung stellt eine realitätsnahe Zielplattform dar, da sie typische Systemkonfigurationen sowie sicherheitsrelevante Monitoring-Komponenten beinhaltet. 
+Die kompromittierte Maschine fungierte dabei als simuliertes Zielsystem, auf dem die generierten Sliver-Implantate ausgeführt wurden.
+\\\\
+Zur Analyse möglicher Sicherheitsereignisse wurde das Elastic Security Dashboard eingesetzt. 
+Dieses System aggregiert und visualisiert Telemetriedaten des Zielsystems, darunter Prozessereignisse, Netzwerkverbindungen sowie sicherheitsrelevante Systemaktivitäten. 
+Dadurch konnte untersucht werden, in welchem Umfang die Aktivitäten des C2-Frameworks innerhalb einer überwachten Umgebung sichtbar werden.
+\\\\
+Ergänzend wurde zur Analyse des Netzwerkverkehrs das Tool Wireshark verwendet. 
+Damit konnten Kommunikationsmuster zwischen dem kompromittierten System und dem C2-Server auf Paketebene untersucht und hinsichtlich möglicher Auffälligkeiten analysiert werden.
+Die wesentlichen Komponenten der Analyseumgebung sind in Tabelle~\ref{tab:analyseumgebung} zusammengefasst.
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{|c|c|X|}
+\hline
+\textbf{Nr.} & \textbf{Komponente} & \textbf{Beschreibung} \\
+\hline
+1 & Host-Maschine & Kali Linux System zur Steuerung des Sliver-Clients sowie zur Verwaltung der Analysewerkzeuge \\
+\hline
+2 & Opfer-Maschine & Windows-10-System innerhalb eines Hack-The-Box-Pro-Labs, auf dem die generierten Implantate ausgeführt werden \\
+\hline
+3 & Überwachungssystem & Elastic Security Dashboard zur Analyse von Telemetriedaten, Sicherheitsereignissen und Systemaktivitäten \\
+\hline
+4 & Netzwerküberwachung & Wireshark zur Analyse des Netzwerkverkehrs zwischen Zielsystem und Command-and-Control-Infrastruktur \\
+\hline
+\end{tabularx}
+\caption{Übersicht der Analyseumgebung}
+\label{tab:analyseumgebung}
+\end{table}
+Auf Basis dieser Infrastruktur werden im weiteren Verlauf der Arbeit verschiedene Experimente durchgeführt, um das Verhalten des Sliver-Frameworks hinsichtlich Kommunikationsmechanismen, Systemartefakten und möglicher Detektion durch Sicherheitslösungen zu untersuchen.
+\subsection{Untersuchungsdesign}
+Die Analyse des Sliver-Frameworks erfolgt in Form einer experimentellen Untersuchung innerhalb der zuvor beschriebenen Laborumgebung. Ziel ist es, zentrale Funktionen des Frameworks unter kontrollierten Bedingungen auszuführen und deren Auswirkungen auf Systemverhalten, Netzwerkkommunikation sowie sicherheitsrelevante Telemetriedaten zu beobachten.
+\\\\
+Im Mittelpunkt der Untersuchung steht der praktische Einsatz des Frameworks zur Etablierung einer Command-and-Control-Kommunikation zwischen einem Operator-System und einem kompromittierten Zielsystem. Hierzu werden zunächst Implantate generiert und auf dem Zielsystem ausgeführt, wodurch eine Verbindung zum Sliver-Server hergestellt wird. Anschließend werden verschiedene Funktionen des Frameworks getestet, um deren Verhalten in einer überwachten Umgebung zu analysieren.
+\\\\
+Die Experimente konzentrieren sich insbesondere auf die Analyse der Kommunikationsmechanismen des Frameworks. Dabei wird untersucht, welche Netzwerkcharakteristika während der Command-and-Control-Kommunikation entstehen und in welchem Umfang sich diese Aktivitäten in Netzwerk- und Sicherheitsmonitoring-Systemen nachvollziehen lassen. Ergänzend wird betrachtet, wie sich unterschiedliche Konfigurationsparameter, etwa Beacon-Intervalle oder verwendete Transportprotokolle, auf das Kommunikationsverhalten auswirken.
+\\\\
+Zur Bewertung der Sichtbarkeit dieser Aktivitäten werden die während der Experimente erzeugten Telemetriedaten im Elastic Security Dashboard analysiert. Zusätzlich erfolgt eine Untersuchung des Netzwerkverkehrs mittels Wireshark, um Kommunikationsmuster zwischen dem kompromittierten System und der Command-and-Control-Infrastruktur auf Paketebene zu betrachten.
+\\\\
+Die Analyse erfolgt schrittweise und orientiert sich an mehreren Untersuchungsschwerpunkten. Dazu gehören der Aufbau der Command-and-Control-Verbindung, die Analyse der resultierenden Netzwerkkommunikation, die Untersuchung möglicher Systemartefakte sowie die Bewertung der Erkennbarkeit durch Sicherheitslösungen. Auf diese Weise soll eine systematische Bewertung des Frameworks im Hinblick auf seine operative Einsetzbarkeit und seine Detektierbarkeit ermöglicht werden.
+\subsection{Analysekriterien}
+Die Bewertung des Sliver-Frameworks erfolgt anhand der in Kapitel 2 definierten Anforderungen an moderne Command-and-Control-Frameworks. 
+Diese Kriterien dienen als analytischer Rahmen, um die technischen Eigenschaften sowie die operative Einsetzbarkeit des Frameworks systematisch zu untersuchen.
+\\\\
+Im Mittelpunkt der Analyse stehen insbesondere vier zentrale Bewertungskategorien: die Kommunikationsmechanismen des Frameworks, dessen Stealth-Eigenschaften, die Modularität der Architektur sowie die Flexibilität der Infrastruktur. 
+Diese Kriterien wurden ausgewählt, da sie wesentliche Faktoren für den praktischen Einsatz von C2-Frameworks in Red-Team-Operationen darstellen.
+\\\\
+Ein erstes zentrales Kriterium bildet die Analyse der \textbf{Kommunikationsmechanismen}. 
+Dabei wird untersucht, über welche Protokolle die Command-and-Control-Kommunikation erfolgt und welche Netzwerkcharakteristika während der Verbindung zwischen kompromittiertem System und C2-Infrastruktur entstehen. 
+Besondere Aufmerksamkeit gilt hierbei der Frage, in welchem Umfang sich diese Kommunikationsmuster von regulärem Netzwerkverkehr unterscheiden.
+\\\\
+Ein weiterer Untersuchungsschwerpunkt liegt auf den \textbf{Stealth-Eigenschaften} des Frameworks. 
+Hierbei wird analysiert, wie auffällig die Aktivitäten des Frameworks innerhalb einer überwachten Umgebung erscheinen. 
+Zu diesem Zweck werden Telemetriedaten des Zielsystems sowie Netzwerkereignisse im Elastic Security Dashboard ausgewertet, um mögliche Sicherheitsereignisse oder Detektionsmechanismen zu identifizieren.
+\\\\
+Darüber hinaus wird die \textbf{Modularität} der Architektur betrachtet. 
+Dabei wird untersucht, in welchem Umfang einzelne Komponenten des Frameworks, etwa Kommunikationsprotokolle oder Implantatkonfigurationen, flexibel kombiniert oder angepasst werden können.
+\\\\
+Ein weiteres Bewertungskriterium stellt die \textbf{Flexibilität} der Infrastruktur dar. 
+Hier wird analysiert, wie einfach sich das Framework an verschiedene Netzwerkumgebungen und Einsatzszenarien anpassen lässt. 
+Dazu gehört beispielsweise die Variation von Kommunikationsparametern, die Nutzung unterschiedlicher Transportprotokolle oder die Anpassung von Beacon-Intervallen.
+\\\\
+Die in dieser Arbeit verwendeten Analysekriterien sind in Tabelle~\ref{tab:analyse_kriterien} zusammengefasst. 
+Die Tabelle dient als strukturierte Übersicht der Bewertungskategorien und bildet die Grundlage für die spätere Ergebnisdarstellung im Kapitel der Analyseergebnisse.
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{|c|X|X|}
+\hline
+\textbf{Nr.} & \textbf{Analysekriterium} & \textbf{Beschreibung} \\
+\hline
+1 & Kommunikationsmechanismen & Analyse der verwendeten Transportprotokolle sowie der Netzwerkcharakteristika der C2-Kommunikation zwischen kompromittiertem System und Server \\
+\hline
+2 & Stealth und Detektierbarkeit & Untersuchung der Sichtbarkeit des Frameworks in einer überwachten Umgebung anhand von Telemetriedaten und Sicherheitsereignissen \\
+\hline
+3 & Modularität & Bewertung der modularen Architektur des Frameworks und der Möglichkeit, einzelne Komponenten flexibel zu konfigurieren \\
+\hline
+4 & Flexibilität der Infrastruktur & Analyse der Anpassungsfähigkeit des Frameworks an unterschiedliche Netzwerkumgebungen, Kommunikationsparameter und Einsatzszenarien \\
+\hline
+\end{tabularx}
+\caption{Übersicht der verwendeten Analysekriterien}
+\label{tab:analyse_kriterien}
+\end{table}
+Die gewonnenen Erkenntnisse aus diesen Untersuchungsschwerpunkten bilden die Grundlage für die Bewertung des Frameworks im anschließenden Kapitel der Ergebnisse.
+\subsection{Ablauf der Experimente}
+Auf Grundlage der beschriebenen Analyseumgebung und der definierten Analysekriterien werden mehrere aufeinander aufbauende Experimente durchgeführt. 
+Die Experimente orientieren sich an einem vereinfachten Angriffsablauf, wie er typischerweise in Red-Team-Operationen vorkommt. 
+Dabei wird zunächst der Zugang zu einem Zielsystem hergestellt, anschließend eine Command-and-Control-Kommunikation etabliert und schließlich das Verhalten des Frameworks innerhalb einer überwachten Umgebung analysiert.
+\\\\
+Die Experimente gliedern sich in folgende Untersuchungsschritte:
+\begin{enumerate}
+\item \textbf{Kompromittierung des Zielsystems} \\
+Im ersten Schritt wird Zugriff auf das Zielsystem innerhalb des Hack-The-Box-Pro-Labors erlangt. 
+Dieser Schritt simuliert die Phase des Initial Access innerhalb eines Angriffsszenarios und dient als Ausgangspunkt für die weitere Analyse der Command-and-Control-Infrastruktur.
+\item \textbf{Vorbereitung der Sliver-Infrastruktur} \\
+Anschließend wird die Command-and-Control-Infrastruktur eingerichtet. 
+Hierzu wird der Sliver-Server gestartet und eine Verbindung zwischen dem Operator-Client und der C2-Infrastruktur hergestellt.
+\item \textbf{Generierung der Implantate} \\
+Im nächsten Schritt werden Sliver-Implantate mit unterschiedlichen Kommunikationsparametern generiert. 
+Diese dienen als Payloads, über die eine Verbindung zwischen dem kompromittierten System und dem C2-Server aufgebaut werden kann.
+\item \textbf{Übertragung des Implantats auf das Zielsystem} \\
+Das generierte Implantat wird anschließend auf das kompromittierte Zielsystem übertragen. 
+Dabei wird untersucht, welche Möglichkeiten bestehen, ein C2-Payload innerhalb eines bereits kompromittierten Systems zu platzieren und auszuführen.
+\item \textbf{Ausführung des Implantats} \\
+Nach erfolgreicher Übertragung wird das Implantat auf dem Zielsystem ausgeführt, wodurch eine Verbindung zum Sliver-Server hergestellt wird und die Command-and-Control-Kommunikation beginnt.
+\item \textbf{Analyse der Command-and-Control-Kommunikation} \\
+Im Anschluss wird die etablierte Kommunikationsverbindung zwischen dem Zielsystem und dem C2-Server untersucht. 
+Dabei werden insbesondere Netzwerkcharakteristika sowie Kommunikationsmuster analysiert.
+\item \textbf{Netzwerkanalyse der C2-Kommunikation} \\
+Der während der Kommunikation erzeugte Netzwerkverkehr wird mithilfe von Wireshark analysiert, um mögliche Auffälligkeiten oder charakteristische Kommunikationsmuster zu identifizieren.
+\item \textbf{Analyse der Telemetriedaten im Elastic Security Dashboard} \\
+Parallel dazu werden die vom Zielsystem erzeugten Sicherheits- und Systemereignisse im Elastic Security Dashboard ausgewertet, um mögliche Detektionsmechanismen oder sicherheitsrelevante Aktivitäten zu identifizieren.
+\item \textbf{Variation der Kommunikationsparameter} \\
+Abschließend werden verschiedene Konfigurationsparameter des Frameworks angepasst, beispielsweise Beacon-Intervalle oder verwendete Transportprotokolle, um deren Einfluss auf das Kommunikationsverhalten und die Detektierbarkeit zu untersuchen.
+\end{enumerate}
+Die praktische Durchführung dieser Experimente sowie die dabei gewonnenen Beobachtungen werden im folgenden Kapitel detailliert dargestellt.
