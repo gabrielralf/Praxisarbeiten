@@ -147,34 +147,6 @@
       \verb https://help.hackthebox.com/en/articles/5229167-professional-lab-scenarios
       \endverb
     \endentry
-    \entry{mitre_attack}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=74ba159b7a793d67eb4e566a38793238}{%
-           family={{MITRE Corporation}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
-      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Framework for adversary behavior, useful for red/blue/purple team exercises}
-      \field{title}{MITRE ATT\&CK — Adversarial Tactics, Techniques \& Common Knowledge}
-      \field{year}{n.d.}
-      \verb{urlraw}
-      \verb https://attack.mitre.org/
-      \endverb
-      \verb{url}
-      \verb https://attack.mitre.org/
-      \endverb
-    \endentry
   \enddatalist
 \endrefsection
 \endinput

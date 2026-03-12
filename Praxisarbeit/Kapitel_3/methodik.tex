@@ -103,33 +103,37 @@ Die gewonnenen Erkenntnisse aus diesen Untersuchungsschwerpunkten bilden die Gru
 \newpage
 \subsection{Ablauf der Experimente}
 Auf Grundlage der beschriebenen Analyseumgebung und der definierten Analysekriterien werden mehrere aufeinander aufbauende Experimente durchgeführt. 
-Die Experimente orientieren sich an einem vereinfachten Angriffsablauf, wie er in etablierten Angriffsmodellen wie der Cyber Kill Chain sowie dem MITRE ATT\&CK Framework beschrieben wird \cite{mitre_attack}. 
-Dabei wird zunächst der Zugang zu einem Zielsystem hergestellt, anschließend eine Command-and-Control-Kommunikation etabliert und schließlich das Verhalten des Frameworks innerhalb einer überwachten Umgebung analysiert.
+Die Experimente orientieren sich an einem vereinfachten Ablauf eines Angriffsszenarios, wie er auch in etablierten Modellen wie der MITRE ATT\&CK Knowledge Base beschrieben wird. 
+Dabei wird in dieser Untersuchung nicht die vollständige Angriffskette betrachtet, sondern insbesondere die Phase nach einem bereits vorhandenen Initial Access.
+\\\\
+Im vorliegenden Szenario liegt bereits ein gültiger Zugang zu einer virtuellen Desktop-Infrastruktur (VDI) eines Unternehmens vor. 
+Die Untersuchung beginnt daher mit der Analyse, wie aus einer eingeschränkten Benutzerumgebung heraus weitere Systemfunktionen erreicht und anschließend eine Command-and-Control-Infrastruktur etabliert werden kann.
 \\\\
 Die Experimente gliedern sich in folgende Untersuchungsschritte:
 \begin{enumerate}
-\item \textbf{Kompromittierung des Zielsystems} \\
-Im ersten Schritt wird Zugriff auf das Zielsystem innerhalb des Hack-The-Box-Pro-Labors erlangt. 
-Dieser Schritt simuliert die Phase des Initial Access innerhalb eines Angriffsszenarios und dient als Ausgangspunkt für die weitere Analyse der Command-and-Control-Infrastruktur.
+\item \textbf{Analyse der Ausgangsumgebung und Ausbruch aus dem Kiosk-Modus} \\
+Zu Beginn wird die bereitgestellte VDI-Umgebung untersucht. 
+Diese ist auf einen eingeschränkten Kiosk-Modus beschränkt, in dem lediglich Anwendungen wie Firefox oder WordPad verfügbar sind. 
+Ziel dieses Schrittes ist es, Wege zu identifizieren, um diese Einschränkungen zu umgehen und Zugriff auf eine umfassendere Systemumgebung zu erhalten.
 \item \textbf{Vorbereitung der Sliver-Infrastruktur} \\
-Anschließend wird die Command-and-Control-Infrastruktur eingerichtet. 
-Hierzu wird der Sliver-Server gestartet und eine Verbindung zwischen dem Operator-Client und der C2-Infrastruktur hergestellt.
-\item \textbf{Generierung der Implantate} \\
-Im nächsten Schritt werden Sliver-Implantate mit unterschiedlichen Kommunikationsparametern generiert. 
-Diese dienen als Payloads, über die eine Verbindung zwischen dem kompromittierten System und dem C2-Server aufgebaut werden kann.
+Im nächsten Schritt wird die Command-and-Control-Infrastruktur eingerichtet. 
+Hierzu wird der Sliver-Server gestartet und eine Verbindung zwischen dem Operator-Client und der Infrastruktur hergestellt.
+\item \textbf{Generierung der Sliver-Implantate} \\
+Anschließend werden Implantate mit unterschiedlichen Kommunikationsparametern generiert. 
+Diese dienen als Payloads zur Etablierung einer Verbindung zwischen dem Zielsystem und dem Command-and-Control-Server.
 \item \textbf{Übertragung des Implantats auf das Zielsystem} \\
-Das generierte Implantat wird anschließend auf das kompromittierte Zielsystem übertragen. 
-Dabei wird untersucht, welche Möglichkeiten bestehen, ein C2-Payload innerhalb eines bereits kompromittierten Systems zu platzieren und auszuführen.
-\item \textbf{Ausführung des Implantats} \\
-Nach erfolgreicher Übertragung wird das Implantat auf dem Zielsystem ausgeführt, wodurch eine Verbindung zum Sliver-Server hergestellt wird und die Command-and-Control-Kommunikation beginnt.
+Nach erfolgreicher Erweiterung der Zugriffsmöglichkeiten innerhalb der VDI-Umgebung wird untersucht, auf welchem Weg das generierte Implantat auf das Zielsystem übertragen werden kann.
+\item \textbf{Ausführung des Implantats und Aufbau der C2-Verbindung} \\
+Nach der Übertragung wird das Implantat auf dem Zielsystem ausgeführt. 
+Dadurch wird eine Verbindung zum Sliver-Server aufgebaut und die Command-and-Control-Kommunikation etabliert.
 \item \textbf{Analyse der Command-and-Control-Kommunikation} \\
-Im Anschluss wird die etablierte Kommunikationsverbindung zwischen dem Zielsystem und dem C2-Server untersucht. 
-Dabei werden insbesondere Netzwerkcharakteristika sowie Kommunikationsmuster analysiert.
-\item \textbf{Netzwerkanalyse der C2-Kommunikation} \\
-Der während der Kommunikation erzeugte Netzwerkverkehr wird mithilfe von Wireshark analysiert, um mögliche Auffälligkeiten oder charakteristische Kommunikationsmuster zu identifizieren.
+Im Anschluss wird die Kommunikationsverbindung zwischen dem kompromittierten System und dem C2-Server untersucht. 
+Dabei werden insbesondere Kommunikationsmuster sowie genutzte Transportprotokolle analysiert.
+\item \textbf{Netzwerkanalyse mit Wireshark} \\
+Der erzeugte Netzwerkverkehr wird mithilfe von Wireshark analysiert, um Paketstrukturen, Verbindungsintervalle und mögliche Auffälligkeiten der C2-Kommunikation zu identifizieren.
 \item \textbf{Analyse der Telemetriedaten im Elastic Security Dashboard} \\
-Parallel dazu werden die vom Zielsystem erzeugten Sicherheits- und Systemereignisse im Elastic Security Dashboard ausgewertet, um mögliche Detektionsmechanismen oder sicherheitsrelevante Aktivitäten zu identifizieren.
+Parallel dazu werden die während der Experimente erzeugten Prozess- und Netzwerkereignisse im Elastic Security Dashboard ausgewertet, um mögliche Detektionen oder sicherheitsrelevante Ereignisse zu identifizieren.
 \item \textbf{Variation der Kommunikationsparameter} \\
-Abschließend werden verschiedene Konfigurationsparameter des Frameworks angepasst, beispielsweise Beacon-Intervalle oder verwendete Transportprotokolle, um deren Einfluss auf das Kommunikationsverhalten und die Detektierbarkeit zu untersuchen.
+Abschließend werden verschiedene Konfigurationsparameter des Frameworks angepasst, beispielsweise Beacon-Intervalle oder verwendete Transportprotokolle, um deren Einfluss auf Kommunikationsverhalten und Detektierbarkeit zu untersuchen.
 \end{enumerate}
 Die praktische Durchführung dieser Experimente sowie die dabei gewonnenen Beobachtungen werden im folgenden Kapitel detailliert dargestellt.
